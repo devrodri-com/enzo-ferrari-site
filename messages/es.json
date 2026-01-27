@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "career": "Carrera",
+    "methodology": "Metodología",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Enzo Ferrari",
+    "subtitle": "Goalkeeper Coach",
+    "ctaContact": "Contact",
+    "ctaCv": "Download CV"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "notConfigured": "Formulario no configurado"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "career": "Career",
+    "methodology": "Methodology",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Enzo Ferrari",
+    "subtitle": "Goalkeeper Coach",
+    "ctaContact": "Contact",
+    "ctaCv": "Download CV"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "notConfigured": "Form not configured"
+  }
+}

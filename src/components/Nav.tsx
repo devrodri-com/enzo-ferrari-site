@@ -36,20 +36,20 @@ export default function Nav() {
   const navClasses = isHome
     ? `w-full fixed top-0 left-0 z-50 relative transition-colors duration-300 ${
         isScrolled
-          ? 'bg-white/75 backdrop-blur-md border-b border-black/10'
-          : 'bg-[color:var(--darkband)]/55 backdrop-blur-md'
+          ? 'bg-white/80 backdrop-blur-lg border-b border-black/10'
+          : 'bg-[color:var(--darkband)]/35 backdrop-blur-lg'
       }`
-    : 'w-full bg-white/75 backdrop-blur-md border-b border-black/10';
+    : 'w-full sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b border-black/10';
 
   const linkClasses = isHome
     ? isScrolled
-      ? 'text-sm font-medium text-black/80 hover:text-black transition-colors'
+      ? 'text-sm font-medium text-black hover:text-black transition-colors'
       : 'text-sm font-medium text-white hover:text-white transition-colors drop-shadow-[0_1px_1px_rgba(0,0,0,0.6)]'
-    : 'text-sm font-medium text-black/80 hover:text-black transition-colors';
+    : 'text-sm font-medium text-black hover:text-black transition-colors';
 
   return (
     <nav className={navClasses}>
-      <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 h-16 md:h-20 flex items-center">
+      <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 h-14 md:h-16 flex items-center">
         <div className="flex items-center justify-between flex-wrap gap-5 w-full">
           <div className="flex gap-5 flex-wrap">
             <Link 

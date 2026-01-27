@@ -48,19 +48,30 @@ export default function Hero({
         {/* Scrim superior para asegurar legibilidad del Nav */}
         <div className="absolute inset-x-0 top-0 h-16 md:h-20 bg-gradient-to-b from-black/80 via-black/55 to-transparent pointer-events-none" />
 
+        {/* Scroll cue minimal */}
+        <div className="absolute bottom-5 left-1/2 -translate-x-1/2 pointer-events-none">
+          <p className="text-[11px] uppercase tracking-[0.2em] text-white/50">
+            Scroll
+          </p>
+        </div>
+
         {/* Contenido */}
         <div className="absolute inset-0">
           <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 h-full flex items-end md:items-center pb-10 md:pb-0">
-            <div className="space-y-8 w-full">
-              <div className="space-y-3 max-w-xl">
-                <p className="text-sm text-white/80">{subtitle}</p>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.02]">
+            <div className="w-full">
+              <div className="max-w-xl">
+                <p className="text-xs sm:text-sm uppercase tracking-[0.18em] text-white/75">
+                  {subtitle}
+                </p>
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-[-0.02em] text-white leading-[1.02] mt-3">
                   {title}
                 </h1>
-                <p className="text-sm sm:text-base text-white/80 mt-3">{context}</p>
+                <p className="text-sm sm:text-base text-white/80 mt-4 max-w-lg">
+                  {context}
+                </p>
               </div>
 
-              <div className="flex gap-4 flex-wrap">
+              <div className="flex gap-4 flex-wrap mt-8">
                 <ButtonLink
                   href={ctaPrimary.href}
                   className="bg-white/90 text-black hover:bg-white"

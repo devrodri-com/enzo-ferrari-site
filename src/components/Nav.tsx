@@ -11,29 +11,49 @@ export default function Nav() {
   const locale = params.locale as string;
 
   return (
-    <nav className="w-full border-b border-gray-200 dark:border-gray-800">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex gap-6">
-          <Link href={`/${locale}`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('home')}
-          </Link>
-          <Link href={`/${locale}/profile`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('profile')}
-          </Link>
-          <Link href={`/${locale}/career`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('career')}
-          </Link>
-          <Link href={`/${locale}/methodology`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('methodology')}
-          </Link>
-          <Link href={`/${locale}/cv`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('cv')}
-          </Link>
-          <Link href={`/${locale}/contact`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
-            {t('contact')}
-          </Link>
+    <nav className="w-full border-b border-black/10">
+      <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 py-5">
+        <div className="flex items-center justify-between flex-wrap gap-5">
+          <div className="flex gap-5 flex-wrap">
+            <Link 
+              href={`/${locale}`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('home')}
+            </Link>
+            <Link 
+              href={`/${locale}/profile`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('profile')}
+            </Link>
+            <Link 
+              href={`/${locale}/career`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('career')}
+            </Link>
+            <Link 
+              href={`/${locale}/methodology`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('methodology')}
+            </Link>
+            <Link 
+              href={`/${locale}/cv`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('cv')}
+            </Link>
+            <Link 
+              href={`/${locale}/contact`} 
+              className="text-sm font-medium text-black/80 hover:text-black transition-colors"
+            >
+              {t('contact')}
+            </Link>
+          </div>
+          <LanguageSwitcher />
         </div>
-        <LanguageSwitcher />
       </div>
     </nav>
   );

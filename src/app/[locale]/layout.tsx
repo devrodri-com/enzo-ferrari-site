@@ -29,7 +29,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as 'es' | 'en')) {
     notFound();
   }
 
@@ -41,8 +41,12 @@ export default async function LocaleLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <Nav />
-          <main>{children}</main>
+          <div className="min-h-screen bg-[#fafafa]">
+            <Nav />
+            <main className="mx-auto w-full max-w-5xl px-5 sm:px-8 py-10">
+              {children}
+            </main>
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

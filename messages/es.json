@@ -10,7 +10,7 @@
   "home": {
     "title": "Enzo Ferrari",
     "subtitle": "Entrenador de Arqueros",
-    "description": "Trabajo en el desarrollo de porteros en selecciones nacionales y clubes de alto rendimiento. Desarrollo metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
+    "description": "Trabajo en selecciones nacionales y clubes de alto rendimiento. Aplico metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
     "highlights": {
       "highlight1": "Selección Uruguaya Mayor (2024–Actualidad)",
       "highlight2": "Experiencia en formativas y alto rendimiento",
@@ -30,7 +30,7 @@
   "pages": {
     "profile": {
       "title": "Perfil Profesional",
-      "intro": "Entrenador de arqueros especializado en alto rendimiento y selecciones nacionales. Actualmente trabajo en la Selección Uruguaya Mayor bajo la dirección de Marcelo Bielsa, desarrollando porteros en diferentes categorías formativas y de primera división. Mi enfoque se basa en el análisis de juego como eje transversal, combinando evaluación diagnóstica, videoanálisis y trabajo cognitivo para lograr la especialización y eficacia en las acciones del portero.",
+      "intro": "Entrenador de arqueros especializado en alto rendimiento y selecciones nacionales. Actualmente trabajo en la Selección Uruguaya Mayor bajo la dirección de Marcelo Bielsa, desarrollando arqueros en diferentes categorías formativas y de primera división. Mi enfoque se basa en el análisis de juego como eje transversal. Utilizo evaluación diagnóstica, videoanálisis y trabajo cognitivo para lograr la especialización y eficacia en las acciones del arquero.",
       "sections": {
         "experience": "Experiencia",
         "experienceItem1": "Selección Uruguaya Mayor (2024–Actualidad) - Entrenador de Arqueros",
@@ -57,15 +57,15 @@
     },
     "methodology": {
       "title": "Metodología",
-      "intro": "Metodología basada en el análisis de jugadas como eje transversal, desarrollando objetivos específicos a través de tareas analíticas, mixtas y contextualizadas durante todo el proceso.",
+      "intro": "Análisis de jugadas como eje transversal. Desarrollo objetivos específicos a través de tareas analíticas, mixtas y contextualizadas durante todo el proceso.",
       "sections": {
         "diagnostic": {
           "title": "Evaluación Diagnóstica",
-          "description": "De suma importancia para elaborar el plan de trabajo, cumpliendo las necesidades específicas predominantes en el desarrollo evolutivo del portero."
+          "description": "Fundamental para elaborar el plan de trabajo, atendiendo las necesidades específicas del desarrollo evolutivo del arquero."
         },
         "video": {
           "title": "Videoanálisis",
-          "description": "Apoyo fundamental para observar fortalezas y debilidades en entrenamientos y partidos oficiales. El poder observatorio con ejemplos cumple un rol esencial para el entendimiento del juego."
+          "description": "Herramienta esencial para observar fortalezas y debilidades en entrenamientos y partidos oficiales. La observación con ejemplos facilita el entendimiento del juego."
         },
         "cognitive": {
           "title": "Trabajo Cognitivo",
@@ -75,7 +75,7 @@
         },
         "integration": {
           "title": "Integración con el Cuerpo Técnico",
-          "description": "Coordinación constante con el Entrenador jefe y el departamento físico para un correcto funcionamiento, desarrollando la metodología hacia las etapas formativas cuando corresponda."
+          "description": "Coordinación constante con el Entrenador jefe y el departamento físico para un correcto funcionamiento. Aplicación de la metodología en etapas formativas cuando corresponda."
         }
       }
     },

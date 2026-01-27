@@ -21,8 +21,8 @@ export default function ButtonLink({
   const baseClasses = "inline-flex items-center justify-center rounded-md text-sm font-medium px-4 py-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20";
   
   const variantClasses = variant === 'primary'
-    ? "bg-black/90 text-white hover:bg-black"
-    : "border border-black/15 text-black/80 hover:border-black/25 hover:text-black";
+    ? "bg-black/90 hover:bg-black"
+    : "border border-black/15 hover:border-black/25";
 
   return (
     <Link

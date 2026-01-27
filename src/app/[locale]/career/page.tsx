@@ -23,23 +23,23 @@ export default async function CareerPage({
 
       <Section title={t('timeline.title')}>
         <ul className="space-y-4">
-          <li className="border-l-4 border-gray-300 pl-4 py-2">
+          <li className="border-l-4 border-[#2C3A44] pl-4 py-2">
             <p className="text-gray-500 text-sm">2024–Actualidad</p>
             <p className="text-gray-700">{t('timeline.item1')}</p>
           </li>
-          <li className="border-l-4 border-gray-300 pl-4 py-2">
+          <li className="border-l-4 border-[#2C3A44] pl-4 py-2">
             <p className="text-gray-500 text-sm">2024</p>
             <p className="text-gray-700">{t('timeline.item2')}</p>
           </li>
-          <li className="border-l-4 border-gray-300 pl-4 py-2">
+          <li className="border-l-4 border-[#2C3A44] pl-4 py-2">
             <p className="text-gray-500 text-sm">2023</p>
             <p className="text-gray-700">{t('timeline.item3')}</p>
           </li>
-          <li className="border-l-4 border-gray-300 pl-4 py-2">
+          <li className="border-l-4 border-[#2C3A44] pl-4 py-2">
             <p className="text-gray-500 text-sm">2022</p>
             <p className="text-gray-700">{t('timeline.item4')}</p>
           </li>
-          <li className="border-l-4 border-gray-300 pl-4 py-2">
+          <li className="border-l-4 border-[#2C3A44] pl-4 py-2">
             <p className="text-gray-500 text-sm">2016-2021</p>
             <p className="text-gray-700">{t('timeline.item5')}</p>
           </li>

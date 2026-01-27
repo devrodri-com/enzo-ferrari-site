@@ -34,57 +34,73 @@ export default function Nav() {
   }, [isHome]);
 
   const navClasses = isHome
-    ? `w-full fixed top-0 left-0 z-50 relative transition-colors duration-300 ${
-        isScrolled
-          ? 'bg-white/80 backdrop-blur-lg border-b border-black/10'
-          : 'bg-[color:var(--darkband)]/35 backdrop-blur-lg'
-      }`
-    : 'w-full sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b border-black/10';
+    ? `w-full fixed top-0 left-0 z-50 relative transition-colors duration-300 bg-[color:var(--darkband)]/32 backdrop-blur-md border-b border-[#2C3A44]/70`
+    : 'w-full fixed top-0 left-0 z-40 relative bg-[color:var(--darkband)]/32 backdrop-blur-md border-b border-[#2C3A44]/70';
 
-  const linkClasses = isHome
-    ? isScrolled
-      ? 'text-sm font-medium text-black hover:text-black transition-colors'
-      : 'text-sm font-medium text-white hover:text-white transition-colors drop-shadow-[0_1px_1px_rgba(0,0,0,0.6)]'
-    : 'text-sm font-medium text-black hover:text-black transition-colors';
+  const linkClasses = 'text-sm font-medium text-white hover:text-white transition-colors drop-shadow-[0_2px_2px_rgba(0,0,0,0.75)]';
+
+  const isActive = (href: string) => pathname === href || pathname === `${href}/`;
+
+  const linkUnderlineClasses = (href: string) => {
+    const active = isActive(href);  
+    if (isHome && !isScrolled) {
+      // Home top: underline blanco
+      return active
+        ? 'border-b-2 border-white/80'
+        : 'border-b-2 border-transparent hover:border-white/70';
+    } else {
+      // Scrolled + internas: underline blanco
+      return active
+        ? 'border-b-2 border-white/80'
+        : 'border-b-2 border-transparent hover:border-white/70';
+    }
+  };
 
   return (
     <nav className={navClasses}>
+      <div className="absolute inset-x-0 top-0 h-14 md:h-16 bg-[color:var(--darkband)] -z-10" />
       <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 h-14 md:h-16 flex items-center">
         <div className="flex items-center justify-between flex-wrap gap-5 w-full">
           <div className="flex gap-5 flex-wrap">
             <Link 
               href={`/${locale}`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}`)}`}
+              aria-current={isActive(`/${locale}`) ? 'page' : undefined}
             >
               {t('home')}
             </Link>
             <Link 
               href={`/${locale}/profile`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}/profile`)}`}
+              aria-current={isActive(`/${locale}/profile`) ? 'page' : undefined}
             >
               {t('profile')}
             </Link>
             <Link 
               href={`/${locale}/career`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}/career`)}`}
+              aria-current={isActive(`/${locale}/career`) ? 'page' : undefined}
             >
               {t('career')}
             </Link>
             <Link 
               href={`/${locale}/methodology`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}/methodology`)}`}
+              aria-current={isActive(`/${locale}/methodology`) ? 'page' : undefined}
             >
               {t('methodology')}
             </Link>
             <Link 
               href={`/${locale}/cv`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}/cv`)}`}
+              aria-current={isActive(`/${locale}/cv`) ? 'page' : undefined}
             >
               {t('cv')}
             </Link>
             <Link 
               href={`/${locale}/contact`} 
-              className={linkClasses}
+              className={`${linkClasses} ${linkUnderlineClasses(`/${locale}/contact`)}`}
+              aria-current={isActive(`/${locale}/contact`) ? 'page' : undefined}
             >
               {t('contact')}
             </Link>
@@ -92,18 +108,18 @@ export default function Nav() {
           <LanguageSwitcher
             buttonClassName={
               isHome && !isScrolled
-                ? 'focus-visible:ring-white/40'
-                : 'focus-visible:ring-black/20'
+                ? 'focus-visible:ring-white/40 border border-transparent'
+                : 'focus-visible:ring-white/40 border border-transparent'
             }
             activeButtonClassName={
               isHome && !isScrolled
-                ? 'bg-white/15 text-white border border-white/25'
-                : 'bg-black/5 text-black border border-black/10'
+                ? 'text-white border-white/80'
+                : 'text-white border-white/80'
             }
             inactiveButtonClassName={
               isHome && !isScrolled
-                ? 'text-white/80 hover:text-white'
-                : 'text-black/70 hover:text-black'
+                ? 'text-white/70 hover:text-white hover:border-white/70'
+                : 'text-white/70 hover:text-white hover:border-white/70'
             }
           />
         </div>

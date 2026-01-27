@@ -26,7 +26,6 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
   transition: opacity 0.2s ease;
 }
 
@@ -34,7 +33,6 @@ a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 2px;
-  opacity: 0.8;
 }
 
 ::selection {

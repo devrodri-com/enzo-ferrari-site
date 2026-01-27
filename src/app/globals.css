@@ -29,10 +29,15 @@ a {
   transition: opacity 0.2s ease;
 }
 
-a:hover {
+a:hover:not(.no-underline) {
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 2px;
+}
+
+a.no-underline,
+a.no-underline:hover {
+  text-decoration: none !important;
 }
 
 ::selection {

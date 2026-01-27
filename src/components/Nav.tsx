@@ -37,22 +37,22 @@ export default function Nav() {
     ? `w-full fixed top-0 left-0 z-50 relative transition-colors duration-300 bg-[color:var(--darkband)]/32 backdrop-blur-md border-b border-[#2C3A44]/70`
     : 'w-full fixed top-0 left-0 z-40 relative bg-[color:var(--darkband)]/32 backdrop-blur-md border-b border-[#2C3A44]/70';
 
-  const linkClasses = 'text-sm font-medium text-white hover:text-white transition-colors drop-shadow-[0_2px_2px_rgba(0,0,0,0.75)]';
+  const linkClasses = 'text-sm font-medium text-white hover:text-white transition-colors drop-shadow-[0_2px_2px_rgba(0,0,0,0.75)] no-underline hover:no-underline';
 
   const isActive = (href: string) => pathname === href || pathname === `${href}/`;
 
   const linkUnderlineClasses = (href: string) => {
     const active = isActive(href);  
     if (isHome && !isScrolled) {
-      // Home top: underline blanco
+      // Home top: underline blanco solo en active
       return active
         ? 'border-b-2 border-white/80'
-        : 'border-b-2 border-transparent hover:border-white/70';
+        : 'border-b-2 border-transparent';
     } else {
-      // Scrolled + internas: underline blanco
+      // Scrolled + internas: underline blanco solo en active
       return active
         ? 'border-b-2 border-white/80'
-        : 'border-b-2 border-transparent hover:border-white/70';
+        : 'border-b-2 border-transparent';
     }
   };
 

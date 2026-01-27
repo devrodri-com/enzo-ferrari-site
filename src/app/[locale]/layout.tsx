@@ -1,20 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Geist, Geist_Mono } from "next/font/google";
 import { routing } from '@/i18n/routing';
 import Nav from '@/components/Nav';
-import '../globals.css';
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,7 +16,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   if (!routing.locales.includes(locale as 'es' | 'en')) {
     notFound();
   }
@@ -36,19 +24,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <NextIntlClientProvider messages={messages}>
-          <div className="min-h-screen bg-[#fafafa]">
-            <Nav />
-            <main className="mx-auto w-full max-w-5xl px-5 sm:px-8 py-10">
-              {children}
-            </main>
-          </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <div className="min-h-screen bg-[#fafafa]">
+        <Nav />
+        <main className="mx-auto w-full max-w-5xl px-5 sm:px-8 py-10">
+          {children}
+        </main>
+      </div>
+    </NextIntlClientProvider>
   );
 }

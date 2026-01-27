@@ -27,6 +27,8 @@ export default async function CVPage({
           <a
             href="/cv/cv-es.pdf"
             download
+            target="_blank"
+            rel="noopener noreferrer"
             className="block px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors text-center"
           >
             {cvT('downloadEs')}
@@ -35,6 +37,8 @@ export default async function CVPage({
           <a
             href="/cv/cv-en.pdf"
             download
+            target="_blank"
+            rel="noopener noreferrer"
             className="block px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors text-center"
           >
             {cvT('downloadEn')}

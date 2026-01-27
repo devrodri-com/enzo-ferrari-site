@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import ButtonLink from '@/components/ui/ButtonLink';
 
 export default async function HomePage({
   params,
@@ -15,22 +15,16 @@ export default async function HomePage({
         <h1 className="text-5xl font-bold tracking-tight">
           {t('title')}
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400">
+        <p className="text-xl text-gray-600">
           {t('subtitle')}
         </p>
         <div className="flex gap-4 justify-center mt-8">
-          <Link
-            href={`/${locale}/contact`}
-            className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
-          >
+          <ButtonLink href={`/${locale}/contact`} variant="primary">
             {t('ctaContact')}
-          </Link>
-          <a
-            href="#"
-            className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors dark:border-gray-700 dark:hover:bg-gray-900"
-          >
+          </ButtonLink>
+          <ButtonLink href={`/${locale}/cv`} variant="secondary">
             {t('ctaCv')}
-          </a>
+          </ButtonLink>
         </div>
       </div>
     </div>

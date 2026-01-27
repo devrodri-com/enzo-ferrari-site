@@ -26,6 +26,9 @@ export default function Nav() {
           <Link href={`/${locale}/methodology`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
             {t('methodology')}
           </Link>
+          <Link href={`/${locale}/cv`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
+            {t('cv')}
+          </Link>
           <Link href={`/${locale}/contact`} className="text-sm font-medium hover:text-gray-600 dark:hover:text-gray-400">
             {t('contact')}
           </Link>

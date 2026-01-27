@@ -20,5 +20,66 @@
     "message": "Mensaje",
     "submit": "Enviar",
     "notConfigured": "Formulario no configurado"
+  },
+  "pages": {
+    "profile": {
+      "title": "Perfil Profesional",
+      "intro": "Esta sección presentará una visión general del perfil profesional, experiencia y enfoque metodológico como entrenador de porteros.",
+      "sections": {
+        "experience": "Experiencia",
+        "experienceItem1": "Por completar",
+        "experienceItem2": "Por completar",
+        "experienceItem3": "Por completar",
+        "approach": "Enfoque",
+        "approachItem1": "Por completar",
+        "approachItem2": "Por completar",
+        "approachItem3": "Por completar",
+        "approachItem4": "Por completar"
+      }
+    },
+    "career": {
+      "title": "Carrera",
+      "intro": "Esta sección mostrará la trayectoria profesional y los hitos más relevantes de la carrera como entrenador de porteros.",
+      "timeline": {
+        "title": "Trayectoria",
+        "item1": "Por completar",
+        "item2": "Por completar",
+        "item3": "Por completar",
+        "item4": "Por completar"
+      }
+    },
+    "methodology": {
+      "title": "Metodología",
+      "intro": "Esta sección detallará la metodología de trabajo y los principios fundamentales aplicados en el entrenamiento de porteros.",
+      "sections": {
+        "diagnostic": {
+          "title": "Evaluación Diagnóstica",
+          "description": "Análisis inicial de las capacidades y áreas de mejora del portero. Por completar."
+        },
+        "video": {
+          "title": "Análisis de Video",
+          "description": "Uso de análisis de video para identificar patrones y oportunidades de mejora. Por completar."
+        },
+        "cognitive": {
+          "title": "Entrenamiento Cognitivo",
+          "perception": "Percepción: Por completar",
+          "decision": "Decisión: Por completar",
+          "execution": "Ejecución: Por completar"
+        },
+        "integration": {
+          "title": "Integración con el Cuerpo Técnico",
+          "description": "Coordinación y trabajo conjunto con el equipo técnico. Por completar."
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "intro": "Descarga el CV actualizado en el idioma de tu preferencia.",
+      "note": "El CV se actualiza periódicamente. Los archivos PDF disponibles son la versión más reciente."
+    }
+  },
+  "cv": {
+    "downloadEs": "Descargar CV (ES)",
+    "downloadEn": "Download CV (EN)"
   }
 }

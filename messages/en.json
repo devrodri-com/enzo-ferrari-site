@@ -20,5 +20,66 @@
     "message": "Message",
     "submit": "Submit",
     "notConfigured": "Form not configured"
+  },
+  "pages": {
+    "profile": {
+      "title": "Professional Profile",
+      "intro": "This section will present an overview of the professional profile, experience and methodological approach as a goalkeeper coach.",
+      "sections": {
+        "experience": "Experience",
+        "experienceItem1": "To be added",
+        "experienceItem2": "To be added",
+        "experienceItem3": "To be added",
+        "approach": "Approach",
+        "approachItem1": "To be added",
+        "approachItem2": "To be added",
+        "approachItem3": "To be added",
+        "approachItem4": "To be added"
+      }
+    },
+    "career": {
+      "title": "Career",
+      "intro": "This section will showcase the professional trajectory and most relevant milestones of the career as a goalkeeper coach.",
+      "timeline": {
+        "title": "Timeline",
+        "item1": "To be added",
+        "item2": "To be added",
+        "item3": "To be added",
+        "item4": "To be added"
+      }
+    },
+    "methodology": {
+      "title": "Methodology",
+      "intro": "This section will detail the working methodology and fundamental principles applied in goalkeeper training.",
+      "sections": {
+        "diagnostic": {
+          "title": "Diagnostic Assessment",
+          "description": "Initial analysis of the goalkeeper's capabilities and areas for improvement. To be added."
+        },
+        "video": {
+          "title": "Video Analysis",
+          "description": "Use of video analysis to identify patterns and improvement opportunities. To be added."
+        },
+        "cognitive": {
+          "title": "Cognitive Training",
+          "perception": "Perception: To be added",
+          "decision": "Decision: To be added",
+          "execution": "Execution: To be added"
+        },
+        "integration": {
+          "title": "Integration with Coaching Staff",
+          "description": "Coordination and joint work with the technical team. To be added."
+        }
+      }
+    },
+    "cv": {
+      "title": "Curriculum Vitae",
+      "intro": "Download the updated CV in your preferred language.",
+      "note": "The CV is updated periodically. The available PDF files are the most recent version."
+    }
+  },
+  "cv": {
+    "downloadEs": "Descargar CV (ES)",
+    "downloadEn": "Download CV (EN)"
   }
 }

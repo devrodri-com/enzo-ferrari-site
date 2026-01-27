@@ -27,7 +27,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <div className="min-h-screen bg-[#fafafa]">
         <Nav />
-        <main className="mx-auto w-full max-w-5xl px-5 sm:px-8 py-10">
+        <main className="w-full p-0">
           {children}
         </main>
       </div>

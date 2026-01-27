@@ -12,12 +12,23 @@
     "subtitle": "Entrenador de Arqueros",
     "description": "Trabajo en selecciones nacionales y clubes de alto rendimiento. Aplico metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
     "highlights": {
-      "highlight1": "Selección Uruguaya Mayor (2024–Actualidad)",
-      "highlight2": "Experiencia en formativas y alto rendimiento",
-      "highlight3": "Metodología basada en análisis y videoanálisis"
+      "highlight1": {
+        "title": "Selección Uruguaya Mayor",
+        "description": "Trabajo actual en la selección mayor bajo la dirección de Marcelo Bielsa (2024–Actualidad)."
+      },
+      "highlight2": {
+        "title": "Formativas y Alto Rendimiento",
+        "description": "Experiencia en selecciones formativas y clubes de primera división."
+      },
+      "highlight3": {
+        "title": "Metodología Integral",
+        "description": "Enfoque basado en análisis de juego, videoanálisis y trabajo cognitivo."
+      }
     },
+    "context": "Selección Uruguaya Mayor · Alto rendimiento",
     "ctaContact": "Contacto",
-    "ctaCv": "Descargar CV"
+    "ctaCv": "Descargar CV",
+    "ctaMethodology": "Ver Metodología"
   },
   "contact": {
     "title": "Contacto",

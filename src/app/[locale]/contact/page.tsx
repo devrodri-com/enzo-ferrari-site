@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, FormEvent } from 'react';
+import Page from '@/components/ui/Page';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
@@ -51,80 +52,78 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-16">
-      <div className="w-full max-w-md space-y-6">
-        <h1 className="text-3xl font-bold text-center">{t('title')}</h1>
-        
-        {!isConfigured && (
-          <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
-            {t('notConfigured')}
+    <Page className="py-10 space-y-8">
+      <h1 className="text-3xl font-bold">{t('title')}</h1>
+      
+      {!isConfigured && (
+        <p className="text-sm text-gray-500 text-center">
+          {t('notConfigured')}
+        </p>
+      )}
+
+      <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
+        <div>
+          <label htmlFor="name" className="block text-sm font-medium mb-1">
+            {t('name')}
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            disabled={!isConfigured}
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="email" className="block text-sm font-medium mb-1">
+            {t('email')}
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            disabled={!isConfigured}
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="message" className="block text-sm font-medium mb-1">
+            {t('message')}
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            rows={5}
+            disabled={!isConfigured}
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+          />
+        </div>
+
+        <button
+          type="submit"
+          disabled={!isConfigured || isSubmitting}
+          className="w-full px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {isSubmitting ? 'Enviando...' : t('submit')}
+        </button>
+
+        {submitStatus === 'success' && (
+          <p className="text-sm text-green-600 text-center">
+            Mensaje enviado correctamente
           </p>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-1">
-              {t('name')}
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              disabled={!isConfigured}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed dark:border-gray-700 dark:bg-gray-900"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-1">
-              {t('email')}
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              disabled={!isConfigured}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed dark:border-gray-700 dark:bg-gray-900"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium mb-1">
-              {t('message')}
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              rows={5}
-              disabled={!isConfigured}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed dark:border-gray-700 dark:bg-gray-900"
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={!isConfigured || isSubmitting}
-            className="w-full px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed dark:bg-white dark:text-black dark:hover:bg-gray-200"
-          >
-            {isSubmitting ? 'Enviando...' : t('submit')}
-          </button>
-
-          {submitStatus === 'success' && (
-            <p className="text-sm text-green-600 dark:text-green-400 text-center">
-              Mensaje enviado correctamente
-            </p>
-          )}
-
-          {submitStatus === 'error' && (
-            <p className="text-sm text-red-600 dark:text-red-400 text-center">
-              Error al enviar el mensaje. Por favor, intenta de nuevo.
-            </p>
-          )}
-        </form>
-      </div>
-    </div>
+        {submitStatus === 'error' && (
+          <p className="text-sm text-red-600 text-center">
+            Error al enviar el mensaje. Por favor, intenta de nuevo.
+          </p>
+        )}
+      </form>
+    </Page>
   );
 }

@@ -3,6 +3,10 @@
 :root {
   --background: #fafafa;
   --foreground: #1d1d1f;
+  --bg: #fafafa;
+  --ink: #1d1d1f;
+  --darkband: #141615;
+  --white: #ffffff;
 }
 
 @theme inline {
@@ -13,8 +17,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--bg);
+  color: var(--ink);
   font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

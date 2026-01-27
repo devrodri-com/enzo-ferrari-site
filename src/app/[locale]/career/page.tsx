@@ -10,7 +10,7 @@ export default async function CareerPage({
   const t = await getTranslations('pages.career');
 
   return (
-    <Page className="space-y-8">
+    <Page className="space-y-8 py-10">
       <h1 className="text-4xl font-bold tracking-tight">
         {t('title')}
       </h1>

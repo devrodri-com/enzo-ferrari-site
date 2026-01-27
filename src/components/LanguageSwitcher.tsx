@@ -3,7 +3,23 @@
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { useTransition } from 'react';
 
-export default function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  className?: string;
+  buttonClassName?: string;
+  activeButtonClassName?: string;
+  inactiveButtonClassName?: string;
+}
+
+function cn(...classes: Array<string | undefined | false>): string {
+  return classes.filter(Boolean).join(' ');
+}
+
+export default function LanguageSwitcher({
+  className,
+  buttonClassName,
+  activeButtonClassName,
+  inactiveButtonClassName,
+}: LanguageSwitcherProps) {
   const params = useParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -25,27 +41,36 @@ export default function LanguageSwitcher() {
     });
   };
 
+  const baseButtonClasses = cn(
+    "text-xs font-semibold px-3 py-1 rounded-md transition-colors focus:outline-none focus-visible:ring-2",
+    buttonClassName
+  );
+
   return (
-    <div className="flex gap-2">
+    <div className={cn("flex gap-2", className)}>
       <button
         onClick={() => switchLocale('es')}
         disabled={isPending || currentLocale === 'es'}
-        className={`text-sm font-medium px-3 py-1 rounded ${
+        className={cn(
+          baseButtonClasses,
           currentLocale === 'es'
-            ? 'bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100'
-            : 'hover:text-gray-600 dark:hover:text-gray-400'
-        } ${isPending ? 'opacity-50 cursor-not-allowed' : ''}`}
+            ? activeButtonClassName
+            : inactiveButtonClassName,
+          isPending && 'opacity-50 cursor-not-allowed'
+        )}
       >
         ES
       </button>
       <button
         onClick={() => switchLocale('en')}
         disabled={isPending || currentLocale === 'en'}
-        className={`text-sm font-medium px-3 py-1 rounded ${
+        className={cn(
+          baseButtonClasses,
           currentLocale === 'en'
-            ? 'bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100'
-            : 'hover:text-gray-600 dark:hover:text-gray-400'
-        } ${isPending ? 'opacity-50 cursor-not-allowed' : ''}`}
+            ? activeButtonClassName
+            : inactiveButtonClassName,
+          isPending && 'opacity-50 cursor-not-allowed'
+        )}
       >
         EN
       </button>

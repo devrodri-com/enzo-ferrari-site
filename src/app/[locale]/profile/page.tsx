@@ -10,7 +10,7 @@ export default async function ProfilePage({
   const t = await getTranslations('pages.profile');
 
   return (
-    <Page className="space-y-8">
+    <Page className="space-y-8 py-10">
       <h1 className="text-4xl font-bold tracking-tight">
         {t('title')}
       </h1>

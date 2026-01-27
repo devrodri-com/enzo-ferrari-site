@@ -10,7 +10,7 @@ export default async function MethodologyPage({
   const t = await getTranslations('pages.methodology');
 
   return (
-    <Page className="space-y-8">
+    <Page className="space-y-8 py-10">
       <h1 className="text-4xl font-bold tracking-tight">
         {t('title')}
       </h1>

@@ -11,7 +11,7 @@ export default async function CVPage({
   const cvT = await getTranslations('cv');
 
   return (
-    <Page className="space-y-8">
+    <Page className="space-y-8 py-10">
       <h1 className="text-4xl font-bold tracking-tight">
         {t('title')}
       </h1>

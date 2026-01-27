@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import Page from '@/components/ui/Page';
+import Section from '@/components/ui/Section';
 
 export default async function MethodologyPage({
   params,
@@ -8,56 +10,42 @@ export default async function MethodologyPage({
   const t = await getTranslations('pages.methodology');
 
   return (
-    <div className="min-h-screen px-4 py-16">
-      <div className="max-w-3xl mx-auto space-y-8">
-        <h1 className="text-4xl font-bold tracking-tight">
-          {t('title')}
-        </h1>
-        
-        <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+    <Page className="space-y-8">
+      <h1 className="text-4xl font-bold tracking-tight">
+        {t('title')}
+      </h1>
+      
+      <Section>
+        <p className="text-lg text-gray-600 leading-relaxed">
           {t('intro')}
         </p>
+      </Section>
 
-        <div className="space-y-6 mt-8">
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold">
-              {t('sections.diagnostic.title')}
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300">
-              {t('sections.diagnostic.description')}
-            </p>
-          </section>
+      <Section title={t('sections.diagnostic.title')}>
+        <p className="text-gray-700">
+          {t('sections.diagnostic.description')}
+        </p>
+      </Section>
 
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold">
-              {t('sections.video.title')}
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300">
-              {t('sections.video.description')}
-            </p>
-          </section>
+      <Section title={t('sections.video.title')}>
+        <p className="text-gray-700">
+          {t('sections.video.description')}
+        </p>
+      </Section>
 
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold">
-              {t('sections.cognitive.title')}
-            </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-              <li>{t('sections.cognitive.perception')}</li>
-              <li>{t('sections.cognitive.decision')}</li>
-              <li>{t('sections.cognitive.execution')}</li>
-            </ul>
-          </section>
+      <Section title={t('sections.cognitive.title')}>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>{t('sections.cognitive.perception')}</li>
+          <li>{t('sections.cognitive.decision')}</li>
+          <li>{t('sections.cognitive.execution')}</li>
+        </ul>
+      </Section>
 
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold">
-              {t('sections.integration.title')}
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300">
-              {t('sections.integration.description')}
-            </p>
-          </section>
-        </div>
-      </div>
-    </div>
+      <Section title={t('sections.integration.title')}>
+        <p className="text-gray-700">
+          {t('sections.integration.description')}
+        </p>
+      </Section>
+    </Page>
   );
 }

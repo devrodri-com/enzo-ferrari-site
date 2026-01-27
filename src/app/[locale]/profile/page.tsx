@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import Page from '@/components/ui/Page';
+import Section from '@/components/ui/Section';
 
 export default async function ProfilePage({
   params,
@@ -8,37 +10,33 @@ export default async function ProfilePage({
   const t = await getTranslations('pages.profile');
 
   return (
-    <div className="min-h-screen px-4 py-16">
-      <div className="max-w-3xl mx-auto space-y-8">
-        <h1 className="text-4xl font-bold tracking-tight">
-          {t('title')}
-        </h1>
-        
-        <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
+    <Page className="space-y-8">
+      <h1 className="text-4xl font-bold tracking-tight">
+        {t('title')}
+      </h1>
+      
+      <Section>
+        <p className="text-lg text-gray-600 leading-relaxed">
           {t('intro')}
         </p>
+      </Section>
 
-        <div className="space-y-4">
-          <h2 className="text-2xl font-semibold mt-8">
-            {t('sections.experience')}
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-            <li>{t('sections.experienceItem1')}</li>
-            <li>{t('sections.experienceItem2')}</li>
-            <li>{t('sections.experienceItem3')}</li>
-          </ul>
+      <Section title={t('sections.experience')}>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>{t('sections.experienceItem1')}</li>
+          <li>{t('sections.experienceItem2')}</li>
+          <li>{t('sections.experienceItem3')}</li>
+        </ul>
+      </Section>
 
-          <h2 className="text-2xl font-semibold mt-8">
-            {t('sections.approach')}
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-            <li>{t('sections.approachItem1')}</li>
-            <li>{t('sections.approachItem2')}</li>
-            <li>{t('sections.approachItem3')}</li>
-            <li>{t('sections.approachItem4')}</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      <Section title={t('sections.approach')}>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>{t('sections.approachItem1')}</li>
+          <li>{t('sections.approachItem2')}</li>
+          <li>{t('sections.approachItem3')}</li>
+          <li>{t('sections.approachItem4')}</li>
+        </ul>
+      </Section>
+    </Page>
   );
 }

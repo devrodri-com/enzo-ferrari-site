@@ -9,9 +9,15 @@
   },
   "home": {
     "title": "Enzo Ferrari",
-    "subtitle": "Goalkeeper Coach",
-    "ctaContact": "Contact",
-    "ctaCv": "Download CV"
+    "subtitle": "Entrenador de Arqueros",
+    "description": "Trabajo en el desarrollo de porteros en selecciones nacionales y clubes de alto rendimiento. Desarrollo metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
+    "highlights": {
+      "highlight1": "Selección Uruguaya Mayor (2024–Actualidad)",
+      "highlight2": "Experiencia en formativas y alto rendimiento",
+      "highlight3": "Metodología basada en análisis y videoanálisis"
+    },
+    "ctaContact": "Contacto",
+    "ctaCv": "Descargar CV"
   },
   "contact": {
     "title": "Contacto",
@@ -24,51 +30,52 @@
   "pages": {
     "profile": {
       "title": "Perfil Profesional",
-      "intro": "Esta sección presentará una visión general del perfil profesional, experiencia y enfoque metodológico como entrenador de porteros.",
+      "intro": "Entrenador de arqueros especializado en alto rendimiento y selecciones nacionales. Actualmente trabajo en la Selección Uruguaya Mayor bajo la dirección de Marcelo Bielsa, desarrollando porteros en diferentes categorías formativas y de primera división. Mi enfoque se basa en el análisis de juego como eje transversal, combinando evaluación diagnóstica, videoanálisis y trabajo cognitivo para lograr la especialización y eficacia en las acciones del portero.",
       "sections": {
         "experience": "Experiencia",
-        "experienceItem1": "Por completar",
-        "experienceItem2": "Por completar",
-        "experienceItem3": "Por completar",
-        "approach": "Enfoque",
-        "approachItem1": "Por completar",
-        "approachItem2": "Por completar",
-        "approachItem3": "Por completar",
-        "approachItem4": "Por completar"
+        "experienceItem1": "Selección Uruguaya Mayor (2024–Actualidad) - Entrenador de Arqueros",
+        "experienceItem2": "Selecciones formativas uruguayas (Sub 17, Sub 15)",
+        "experienceItem3": "Liverpool F.C Uruguay (U16-U17-U19-U23)",
+        "approach": "Formación y Licencias",
+        "approachItem1": "Entrenador de Arqueros Lic. Profesional CONMEBOL",
+        "approachItem2": "Entrenador de Fútbol Lic. Pro CONMEBOL",
+        "approachItem3": "Licenciatura en Educación Física (58 créditos finales)",
+        "approachItem4": "Disertante en Universidad de la República (UDELAR)"
       }
     },
     "career": {
       "title": "Carrera",
-      "intro": "Esta sección mostrará la trayectoria profesional y los hitos más relevantes de la carrera como entrenador de porteros.",
+      "intro": "Trayectoria profesional desarrollada en selecciones nacionales y clubes de Uruguay, trabajando desde categorías formativas hasta selección mayor.",
       "timeline": {
         "title": "Trayectoria",
-        "item1": "Por completar",
-        "item2": "Por completar",
-        "item3": "Por completar",
-        "item4": "Por completar"
+        "item1": "2024–Actualidad - Selección Uruguaya Mayor - Entrenador de Arqueros",
+        "item2": "2024 - Selección Uruguaya Sub 17",
+        "item3": "2023 - Selección Uruguaya Sub 15",
+        "item4": "2022 - Liverpool F.C Uruguay (U16-U17-U19-U23)",
+        "item5": "2016-2021 - Selecciones de Paysandú (1ra Div, U17, U15, U14)"
       }
     },
     "methodology": {
       "title": "Metodología",
-      "intro": "Esta sección detallará la metodología de trabajo y los principios fundamentales aplicados en el entrenamiento de porteros.",
+      "intro": "Metodología basada en el análisis de jugadas como eje transversal, desarrollando objetivos específicos a través de tareas analíticas, mixtas y contextualizadas durante todo el proceso.",
       "sections": {
         "diagnostic": {
           "title": "Evaluación Diagnóstica",
-          "description": "Análisis inicial de las capacidades y áreas de mejora del portero. Por completar."
+          "description": "De suma importancia para elaborar el plan de trabajo, cumpliendo las necesidades específicas predominantes en el desarrollo evolutivo del portero."
         },
         "video": {
-          "title": "Análisis de Video",
-          "description": "Uso de análisis de video para identificar patrones y oportunidades de mejora. Por completar."
+          "title": "Videoanálisis",
+          "description": "Apoyo fundamental para observar fortalezas y debilidades en entrenamientos y partidos oficiales. El poder observatorio con ejemplos cumple un rol esencial para el entendimiento del juego."
         },
         "cognitive": {
-          "title": "Entrenamiento Cognitivo",
-          "perception": "Percepción: Por completar",
-          "decision": "Decisión: Por completar",
-          "execution": "Ejecución: Por completar"
+          "title": "Trabajo Cognitivo",
+          "perception": "Percepción: Desarrollo de la capacidad de lectura e interpretación del juego",
+          "decision": "Decisión: Mejora constante en la toma de decisiones bajo presión",
+          "execution": "Ejecución: Especialización y eficacia en las acciones técnicas-tácticas"
         },
         "integration": {
           "title": "Integración con el Cuerpo Técnico",
-          "description": "Coordinación y trabajo conjunto con el equipo técnico. Por completar."
+          "description": "Coordinación constante con el Entrenador jefe y el departamento físico para un correcto funcionamiento, desarrollando la metodología hacia las etapas formativas cuando corresponda."
         }
       }
     },

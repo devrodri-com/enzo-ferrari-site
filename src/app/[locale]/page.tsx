@@ -18,6 +18,14 @@ export default async function HomePage({
         <p className="text-xl text-gray-600">
           {t('subtitle')}
         </p>
+        <p className="text-lg text-gray-700 leading-relaxed">
+          {t('description')}
+        </p>
+        <div className="space-y-2 text-left mt-8">
+          <p className="text-gray-700">• {t('highlights.highlight1')}</p>
+          <p className="text-gray-700">• {t('highlights.highlight2')}</p>
+          <p className="text-gray-700">• {t('highlights.highlight3')}</p>
+        </div>
         <div className="flex gap-4 justify-center mt-8">
           <ButtonLink href={`/${locale}/contact`} variant="primary">
             {t('ctaContact')}

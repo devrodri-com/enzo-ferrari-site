@@ -42,24 +42,21 @@ export default function Hero({
           className="object-cover object-[100%_5%] hidden md:block"
         />
 
-        {/* Overlay oscuro funcional */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/35 to-transparent pointer-events-none" />
-
-        {/* Scrim superior para asegurar legibilidad del Nav */}
-        <div className="absolute inset-x-0 top-0 h-16 md:h-20 bg-gradient-to-b from-black/80 via-black/55 to-transparent pointer-events-none" />
+        {/* Overlay plano institucional */}
+        <div className="absolute inset-0 bg-[color:var(--darkband)]/50 pointer-events-none" />
 
         {/* Contenido */}
         <div className="absolute inset-0">
           <div className="mx-auto w-full max-w-5xl px-5 sm:px-8 h-full flex items-end md:items-center pb-10 md:pb-0">
             <div className="w-full">
               <div className="max-w-xl">
-                <p className="text-sm sm:text-base uppercase tracking-[0.18em] text-white/75">
+                <p className="text-sm sm:text-base uppercase tracking-[0.16em] text-white/80">
                   {subtitle}
                 </p>
-                <h1 className="text-5xl sm:text-6xl lg:text-6xl font-semibold tracking-[-0.02em] text-white leading-[1.02] mt-3">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-[-0.02em] text-white leading-[1.02] mt-3">
                   {title}
                 </h1>
-                <p className="text-base sm:text-lg text-white/80 mt-4 max-w-lg">
+                <p className="text-lg sm:text-xl text-white/90 mt-4 max-w-lg">
                   {context}
                 </p>
               </div>
@@ -67,13 +64,13 @@ export default function Hero({
               <div className="flex gap-4 flex-wrap mt-8">
                 <ButtonLink
                   href={ctaPrimary.href}
-                  className="bg-white text-black hover:bg-white/95 border border-white/20 no-underline hover:no-underline"
+                  className="bg-white text-black hover:bg-white/95 border border-white/20 no-underline hover:no-underline px-6 py-3"
                 >
                   {ctaPrimary.label}
                 </ButtonLink>
                 <ButtonLink
                   href={ctaSecondary.href}
-                  className="border border-white/85 text-white hover:bg-white/10 hover:border-white no-underline hover:no-underline"
+                  className="border border-white/70 text-white hover:bg-white/10 hover:border-white/85 no-underline hover:no-underline px-6 py-3"
                 >
                   {ctaSecondary.label}
                 </ButtonLink>

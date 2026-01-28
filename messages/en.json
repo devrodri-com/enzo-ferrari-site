@@ -9,9 +9,55 @@
   },
   "home": {
     "title": "Enzo Ferrari",
-    "subtitle": "Goalkeeper Coach",
+    "subtitle": "GOALKEEPER COACH · HIGH PERFORMANCE",
+    "context": "Uruguay Senior National Team (AUF) · Technical Staff",
     "ctaContact": "Contact",
-    "ctaCv": "Download CV"
+    "ctaCv": "Download CV",
+    "ctaMethodology": "View Methodology",
+    "editorial": {
+      "statement": "Goalkeeper development is built through game analysis, diagnostic evaluation, and decision-making, integrating technical, tactical, and cognitive aspects within real competitive environments.",
+      "paragraph": "This approach is applied across both developmental and high-performance contexts, adapting to the specific demands of each environment and working in close coordination with technical staff and physical departments, with a constant focus on game understanding and effective execution."
+    },
+    "transition": {
+      "text": "Goalkeeper development requires game understanding, decision-making, and constant adaptation to the competitive context.",
+      "kicker": "Focus",
+      "microline": "Analysis · Diagnostic · Decision"
+    },
+    "synthesis": {
+      "title": "Professional Summary",
+      "text": "I work as a goalkeeper coach within national teams and high-performance club environments, integrating into professional technical staffs and developing training and performance processes in real competitive scenarios.",
+      "kicker": "Context",
+      "microline": "National teams · High performance · Technical staff"
+    },
+    "highlights": {
+      "1": {
+        "title": "Methodology applied to the game",
+        "text": "Goalkeeper development based on game analysis, diagnostic evaluation, and decision-making, integrating analytical, mixed, and contextualized tasks in real competitive environments."
+      },
+      "2": {
+        "title": "Integrated work within technical staffs",
+        "text": "Functional integration within the technical staff, working in coordination with head coaches, physical trainers, and analysis departments."
+      },
+      "3": {
+        "title": "Cognitive development of the goalkeeper",
+        "text": "Training focused on improving perception, decision-making, and execution, using video analysis as a fundamental support tool."
+      }
+    },
+    "cta": {
+      "title": "Professional contact",
+      "text": "Available for national team environments, clubs, and international processes.",
+      "primary": "Download CV",
+      "secondary": "Contact"
+    }
+  },
+  "footer": {
+    "name": "Enzo Ferrari",
+    "role": "Goalkeeper Coach · High Performance",
+    "context": "Uruguay Senior National Team (AUF) · Technical Staff",
+    "location": "Uruguay",
+    "copyright": "© {year} Enzo Ferrari. All rights reserved.",
+    "madeByPrefix": "Built with Next.js by",
+    "madeByName": "Rodrigo Opalo"
   },
   "contact": {
     "title": "Contact",
@@ -24,18 +70,8 @@
   "pages": {
     "profile": {
       "title": "Professional Profile",
-      "intro": "This section will present an overview of the professional profile, experience and methodological approach as a goalkeeper coach.",
-      "sections": {
-        "experience": "Experience",
-        "experienceItem1": "To be added",
-        "experienceItem2": "To be added",
-        "experienceItem3": "To be added",
-        "approach": "Approach",
-        "approachItem1": "To be added",
-        "approachItem2": "To be added",
-        "approachItem3": "To be added",
-        "approachItem4": "To be added"
-      }
+      "mainText": "I work as a goalkeeper coach within national team and high-performance club environments, integrating into professional technical staffs and collaborating closely with head coaches, physical trainers, and analysis departments.",
+      "focusBlock": "My approach focuses on the comprehensive development of the goalkeeper, combining game analysis, diagnostic assessment, and decision-making processes to enhance individual performance within the team's collective structure."
     },
     "career": {
       "title": "Career",

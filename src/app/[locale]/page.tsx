@@ -1,7 +1,10 @@
 import { getTranslations } from 'next-intl/server';
 import Hero from '@/components/Hero';
-import Page from '@/components/ui/Page';
-import ButtonLink from '@/components/ui/ButtonLink';
+import EditorialTransition from '@/components/EditorialTransition';
+import HomeSynthesis from '@/components/HomeSynthesis';
+import HomeHighlights from '@/components/HomeHighlights';
+import HomeCTA from '@/components/HomeCTA';
+import SiteFooter from '@/components/SiteFooter';
 
 export default async function HomePage({
   params,
@@ -10,19 +13,20 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   const t = await getTranslations('home');
+  const footerT = await getTranslations('footer');
 
-  const highlights = [
+  const technicalHighlights = [
     {
-      title: t('highlights.highlight1.title'),
-      description: t('highlights.highlight1.description'),
+      title: t('highlights.1.title'),
+      text: t('highlights.1.text'),
     },
     {
-      title: t('highlights.highlight2.title'),
-      description: t('highlights.highlight2.description'),
+      title: t('highlights.2.title'),
+      text: t('highlights.2.text'),
     },
     {
-      title: t('highlights.highlight3.title'),
-      description: t('highlights.highlight3.description'),
+      title: t('highlights.3.title'),
+      text: t('highlights.3.text'),
     },
   ];
 
@@ -42,33 +46,43 @@ export default async function HomePage({
         }}
       />
       
-      <Page className="space-y-10 py-10">
-        {/* Descripción */}
-        <p className="text-lg text-black/70 leading-relaxed max-w-2xl">
-          {t('description')}
-        </p>
-
-        {/* Highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 pt-8 border-t border-black/10">
-          {highlights.map((highlight, index) => (
-            <div key={index} className="space-y-2">
-              <h3 className="text-sm font-semibold text-black/90">
-                {highlight.title}
-              </h3>
-              <p className="text-sm text-black/70">
-                {highlight.description}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* CTA Contacto */}
-        <div className="pt-4">
-          <ButtonLink href={`/${locale}/contact`} variant="primary">
-            {t('ctaContact')}
-          </ButtonLink>
-        </div>
-      </Page>
+      <EditorialTransition
+        text={t('transition.text')}
+        kicker={t('transition.kicker')}
+        microline={t('transition.microline')}
+      />
+      
+      <HomeSynthesis
+        title={t('synthesis.title')}
+        text={t('synthesis.text')}
+        kicker={t('synthesis.kicker')}
+        microline={t('synthesis.microline')}
+      />
+      
+      <HomeHighlights highlights={technicalHighlights} />
+      
+      <HomeCTA
+        title={t('cta.title')}
+        text={t('cta.text')}
+        primary={{
+          href: `/${locale}/cv`,
+          label: t('cta.primary'),
+        }}
+        secondary={{
+          href: `/${locale}/contact`,
+          label: t('cta.secondary'),
+        }}
+      />
+      
+      <SiteFooter
+        name={footerT('name')}
+        role={footerT('role')}
+        context={footerT('context')}
+        location={footerT('location')}
+        copyright={footerT('copyright', { year: new Date().getFullYear() })}
+        madeByPrefix={footerT('madeByPrefix')}
+        madeByName={footerT('madeByName')}
+      />
     </>
   );
 }

@@ -13,7 +13,7 @@
     "description": "Trabajo en selecciones nacionales y clubes de alto rendimiento. Aplico metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
     "highlights": {
       "highlight1": {
-        "title": "Selección Uruguaya Mayor",
+        "title": "Selección Uruguaya Mayor · AUF",
         "description": "Trabajo actual en la selección mayor bajo la dirección de Marcelo Bielsa (2024–Actualidad)."
       },
       "highlight2": {
@@ -25,10 +25,54 @@
         "description": "Enfoque basado en análisis de juego, videoanálisis y trabajo cognitivo."
       }
     },
-    "context": "Selección Uruguaya Mayor · Alto rendimiento",
+    "context": "Selección Uruguaya Mayor · AUF · Alto rendimiento",
     "ctaContact": "Contacto",
     "ctaCv": "Descargar CV",
-    "ctaMethodology": "Ver Metodología"
+    "ctaMethodology": "Ver Metodología",
+    "editorial": {
+      "statement": "El desarrollo del arquero se construye a partir del análisis del juego, la evaluación diagnóstica y la toma de decisiones, integrando de forma coherente los aspectos técnicos, tácticos y cognitivos en contextos reales de competencia.",
+      "paragraph": "Este enfoque se aplica tanto en etapas formativas como en escenarios de alto rendimiento, adaptándose a las necesidades específicas de cada contexto y trabajando de manera coordinada con el cuerpo técnico y el área física, priorizando siempre la comprensión del juego y la eficacia en la ejecución."
+    },
+    "transition": {
+      "text": "El desarrollo del arquero exige comprensión del juego, toma de decisiones y adaptación constante al contexto competitivo.",
+      "kicker": "Enfoque",
+      "microline": "Análisis · Diagnóstico · Decisión"
+    },
+    "synthesis": {
+      "title": "Síntesis Profesional",
+      "text": "Trabajo como entrenador de arqueros en contextos de selecciones nacionales y clubes de alto rendimiento, integrándome en cuerpos técnicos profesionales y desarrollando procesos de formación y rendimiento en escenarios competitivos reales.",
+      "kicker": "Contexto",
+      "microline": "Selecciones nacionales · Alto rendimiento · Staff técnico"
+    },
+    "highlights": {
+      "1": {
+        "title": "Metodología aplicada al juego real",
+        "text": "Desarrollo del arquero a partir del análisis de juego, evaluación diagnóstica y toma de decisiones, integrando tareas analíticas, mixtas y contextualizadas en contextos reales de competencia."
+      },
+      "2": {
+        "title": "Trabajo integrado en cuerpos técnicos",
+        "text": "Integración funcional dentro del cuerpo técnico, trabajando de forma coordinada con entrenador principal, preparadores físicos y áreas de análisis."
+      },
+      "3": {
+        "title": "Desarrollo cognitivo del arquero",
+        "text": "Entrenamiento orientado a la mejora de la percepción, la toma de decisiones y la ejecución, utilizando el videoanálisis como soporte del proceso."
+      }
+    },
+    "cta": {
+      "title": "Contacto profesional",
+      "text": "Disponible para contextos de selección, clubes y procesos internacionales.",
+      "primary": "Descargar CV",
+      "secondary": "Contactar"
+    }
+  },
+  "footer": {
+    "name": "Enzo Ferrari",
+    "role": "Entrenador de Arqueros · Alto rendimiento",
+    "context": "Selección Uruguaya Mayor · AUF · Staff Técnico",
+    "location": "Uruguay",
+    "copyright": "© {year} Enzo Ferrari. Todos los derechos reservados.",
+    "madeByPrefix": "Hecho con Next.js por",
+    "madeByName": "Rodrigo Opalo"
   },
   "contact": {
     "title": "Contacto",
@@ -41,25 +85,15 @@
   "pages": {
     "profile": {
       "title": "Perfil Profesional",
-      "intro": "Entrenador de arqueros especializado en alto rendimiento y selecciones nacionales. Actualmente trabajo en la Selección Uruguaya Mayor bajo la dirección de Marcelo Bielsa, desarrollando arqueros en diferentes categorías formativas y de primera división. Mi enfoque se basa en el análisis de juego como eje transversal. Utilizo evaluación diagnóstica, videoanálisis y trabajo cognitivo para lograr la especialización y eficacia en las acciones del arquero.",
-      "sections": {
-        "experience": "Experiencia",
-        "experienceItem1": "Selección Uruguaya Mayor (2024–Actualidad) - Entrenador de Arqueros",
-        "experienceItem2": "Selecciones formativas uruguayas (Sub 17, Sub 15)",
-        "experienceItem3": "Liverpool F.C Uruguay (U16-U17-U19-U23)",
-        "approach": "Formación y Licencias",
-        "approachItem1": "Entrenador de Arqueros Lic. Profesional CONMEBOL",
-        "approachItem2": "Entrenador de Fútbol Lic. Pro CONMEBOL",
-        "approachItem3": "Licenciatura en Educación Física (58 créditos finales)",
-        "approachItem4": "Disertante en Universidad de la República (UDELAR)"
-      }
+      "mainText": "Trabajo como entrenador de arqueros en contextos de selecciones nacionales y clubes de alto rendimiento, integrándome dentro de cuerpos técnicos profesionales y colaborando de manera coordinada con entrenadores principales, preparadores físicos y áreas de análisis.",
+      "focusBlock": "Mi enfoque se centra en el desarrollo integral del arquero, combinando análisis del juego, evaluación diagnóstica y toma de decisiones, con el objetivo de potenciar el rendimiento individual dentro del funcionamiento colectivo del equipo."
     },
     "career": {
       "title": "Carrera",
       "intro": "Trayectoria profesional desarrollada en selecciones nacionales y clubes de Uruguay, trabajando desde categorías formativas hasta selección mayor.",
       "timeline": {
         "title": "Trayectoria",
-        "item1": "2024–Actualidad - Selección Uruguaya Mayor - Entrenador de Arqueros",
+        "item1": "2024–Actualidad - Selección Uruguaya Mayor · AUF - Entrenador de Arqueros",
         "item2": "2024 - Selección Uruguaya Sub 17",
         "item3": "2023 - Selección Uruguaya Sub 15",
         "item4": "2022 - Liverpool F.C Uruguay (U16-U17-U19-U23)",

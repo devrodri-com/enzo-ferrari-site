@@ -62,7 +62,7 @@ export default function HomeSynthesis({
           </div>
 
           {/* Imagen */}
-          <div className="w-full h-[300px] sm:h-[360px] md:h-[420px] relative">
+          <div className="w-full h-[300px] sm:h-[360px] md:h-[420px] relative overflow-hidden rounded-xl border border-[#2C3A44]/20">
             <Image
               src="/images/home/home-synthesis-work.jpg"
               alt=""

@@ -158,8 +158,28 @@ export default function Nav() {
               ))}
             </div>
 
-            {/* Mobile: Hamburger + Language Switcher */}
+            {/* Mobile: Language Switcher + Hamburger */}
             <div className="md:hidden flex items-center justify-between w-full">
+              <div>
+                <LanguageSwitcher
+                  buttonClassName={
+                    isHome && !isScrolled
+                      ? 'focus-visible:ring-white/40 border border-transparent'
+                      : 'focus-visible:ring-white/40 border border-transparent'
+                  }
+                  activeButtonClassName={
+                    isHome && !isScrolled
+                      ? 'text-white border-white/80'
+                      : 'text-white border-white/80'
+                  }
+                  inactiveButtonClassName={
+                    isHome && !isScrolled
+                      ? 'text-white/70 hover:text-white hover:border-white/70'
+                      : 'text-white/70 hover:text-white hover:border-white/70'
+                  }
+                />
+              </div>
+
               <div>
                 <button
                   ref={hamburgerRef}
@@ -204,26 +224,6 @@ export default function Nav() {
                     </svg>
                   )}
                 </button>
-              </div>
-
-              <div>
-                <LanguageSwitcher
-                  buttonClassName={
-                    isHome && !isScrolled
-                      ? 'focus-visible:ring-white/40 border border-transparent'
-                      : 'focus-visible:ring-white/40 border border-transparent'
-                  }
-                  activeButtonClassName={
-                    isHome && !isScrolled
-                      ? 'text-white border-white/80'
-                      : 'text-white border-white/80'
-                  }
-                  inactiveButtonClassName={
-                    isHome && !isScrolled
-                      ? 'text-white/70 hover:text-white hover:border-white/70'
-                      : 'text-white/70 hover:text-white hover:border-white/70'
-                  }
-                />
               </div>
             </div>
 

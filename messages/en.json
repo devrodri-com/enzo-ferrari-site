@@ -69,9 +69,27 @@
   },
   "pages": {
     "profile": {
-      "title": "Professional Profile",
-      "mainText": "I work as a goalkeeper coach within national team and high-performance club environments, integrating into professional technical staffs and collaborating closely with head coaches, physical trainers, and analysis departments.",
-      "focusBlock": "My approach focuses on the comprehensive development of the goalkeeper, combining game analysis, diagnostic assessment, and decision-making processes to enhance individual performance within the team's collective structure."
+      "kicker": "Role · Approach · Context",
+      "title": "Professional profile",
+      "intro": "Goalkeeper coach specialised in high-performance environments, integrating technical, cognitive, and tactical work within professional technical staffs.",
+      "role": {
+        "title": "Role within the technical staff",
+        "text": "My role is developed as an active part of the technical staff, coordinating the goalkeeper's work with the game model, the physical process, and performance analysis.\n\nGoalkeeper training is not approached as an isolated task, but as a component integrated into the team's collective functioning."
+      },
+      "criteria": {
+        "title": "Intervention approach",
+        "text": "I intervene based on game analysis and the real demands of competition, prioritising decision-making, reading situations, and contextualised execution.\n\nThe focus of the work is on preparing the goalkeeper to respond effectively in real scenarios, not on reproducing gestures in a decontextualised way."
+      },
+      "contexts": {
+        "title": "Contexts where this adds value",
+        "text": "This approach is especially relevant in contexts where competitive demand, decision-making, and methodological coherence within the staff are decisive for performance."
+      },
+      "cta": {
+        "title": "Professional contact",
+        "text": "Available to integrate into professional technical staffs in high-performance environments, delivering goalkeeper work aligned with the game model and real competitive demands.",
+        "primary": "Download CV",
+        "secondary": "Contact"
+      }
     },
     "career": {
       "kicker": "Career",

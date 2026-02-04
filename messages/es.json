@@ -70,9 +70,27 @@
   },
   "pages": {
     "profile": {
-      "title": "Perfil Profesional",
-      "mainText": "Trabajo como entrenador de arqueros en contextos de selecciones nacionales y clubes de alto rendimiento, integrándome dentro de cuerpos técnicos profesionales y colaborando de manera coordinada con entrenadores principales, preparadores físicos y áreas de análisis.",
-      "focusBlock": "Mi enfoque se centra en el desarrollo integral del arquero, combinando análisis del juego, evaluación diagnóstica y toma de decisiones, con el objetivo de potenciar el rendimiento individual dentro del funcionamiento colectivo del equipo."
+      "kicker": "Rol · Criterio · Contexto",
+      "title": "Perfil profesional",
+      "intro": "Entrenador de arqueros especializado en contextos de alto rendimiento, integrando el trabajo técnico, cognitivo y táctico dentro de cuerpos técnicos profesionales.",
+      "role": {
+        "title": "Rol dentro del cuerpo técnico",
+        "text": "Mi rol se desarrolla como parte activa del cuerpo técnico, coordinando el trabajo del arquero con el modelo de juego, el proceso físico y el análisis del rendimiento.\n\nEl entrenamiento del arquero no se aborda como una tarea aislada, sino como un componente integrado al funcionamiento colectivo del equipo."
+      },
+      "criteria": {
+        "title": "Criterio de intervención",
+        "text": "Intervengo a partir del análisis del juego y de las demandas reales de la competencia, priorizando la toma de decisiones, la lectura de situaciones y la ejecución contextualizada.\n\nEl foco del trabajo está puesto en preparar al arquero para responder eficazmente en escenarios reales, no en reproducir gestos de forma descontextualizada."
+      },
+      "contexts": {
+        "title": "Contextos donde aporta valor",
+        "text": "Este enfoque resulta especialmente relevante en contextos donde la exigencia competitiva, la toma de decisiones y la coherencia metodológica dentro del staff son determinantes para el rendimiento."
+      },
+      "cta": {
+        "title": "Contacto profesional",
+        "text": "Disponible para integrarme a cuerpos técnicos profesionales en contextos de alto rendimiento, aportando un trabajo del arquero coherente con el modelo de juego y las demandas reales de la competencia.",
+        "primary": "Descargar CV",
+        "secondary": "Contactar"
+      }
     },
     "career": {
       "kicker": "Carrera",

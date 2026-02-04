@@ -265,7 +265,7 @@ export default async function CareerPage({
         </div>
 
         {/* Bridge + CTA (full-width band) */}
-        <div className="mt-14 w-full border-y border-white/10 bg-[#141615] py-12 sm:py-14 pb-10 sm:pb-12">
+        <div className="mt-16 sm:mt-20 w-full border-y border-white/10 bg-[#141615] py-12 sm:py-14 pb-10 sm:pb-12">
           <div className="mx-auto max-w-6xl px-6 sm:px-10">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-[#2C3A44]" />

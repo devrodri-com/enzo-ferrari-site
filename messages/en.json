@@ -225,6 +225,28 @@
         "primary": "Contact",
         "secondary": "Back to home"
       }
+    },
+    "contact": {
+      "kicker": "Contact",
+      "title": "Professional contact",
+      "intro": "Available for professional environments and high-performance processes.",
+      "section": {
+        "title": "Direct channels"
+      },
+      "items": {
+        "email": { "label": "Email", "value": "enzoisef2019@gmail.com", "display": "enzoisef2019@gmail.com" },
+        "whatsapp": { "label": "WhatsApp", "value": "+598 99 719 422" },
+        "linkedin": { "label": "LinkedIn", "value": "ea-enzoferrari" },
+        "instagram": { "label": "Instagram", "value": "@ea_enzoferrari" },
+        "location": { "label": "Location", "value": "Uruguay" },
+        "timezone": { "label": "Time zone", "value": "UTC−03:00" }
+      },
+      "cta": {
+        "title": "CV & contact",
+        "text": "For formal processes, you can download the CV or reach out through the direct channels.",
+        "primary": "Download CV",
+        "secondary": "Back to home"
+      }
     }
   },
   "cv": {

@@ -226,6 +226,28 @@
         "primary": "Contactar",
         "secondary": "Volver al inicio"
       }
+    },
+    "contact": {
+      "kicker": "Contacto",
+      "title": "Contacto profesional",
+      "intro": "Disponible para contextos profesionales y procesos de alto rendimiento.",
+      "section": {
+        "title": "Canales directos"
+      },
+      "items": {
+        "email": { "label": "Email", "value": "enzoisef2019@gmail.com", "display": "enzoisef2019@gmail.com" },
+        "whatsapp": { "label": "WhatsApp", "value": "+598 99 719 422" },
+        "linkedin": { "label": "LinkedIn", "value": "ea-enzoferrari" },
+        "instagram": { "label": "Instagram", "value": "@ea_enzoferrari" },
+        "location": { "label": "Ubicación", "value": "Uruguay" },
+        "timezone": { "label": "Zona horaria", "value": "UTC−03:00" }
+      },
+      "cta": {
+        "title": "CV y contacto",
+        "text": "Para procesos formales, podés descargar el CV o contactarme por los canales directos.",
+        "primary": "Descargar CV",
+        "secondary": "Volver al inicio"
+      }
     }
   },
   "cv": {

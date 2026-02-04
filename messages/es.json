@@ -99,7 +99,7 @@
       "experience": {
         "title": "Experiencia profesional",
         "1": {
-          "period": "2024–Actualidad",
+          "period": "2024-Actualidad",
           "org": "Selección Uruguaya Mayor · AUF",
           "role": "Entrenador de Arqueros - Cuerpo técnico dirigido por Marcelo Bielsa",
           "micro": "Máximo nivel competitivo internacional."
@@ -120,7 +120,7 @@
           "role": "Entrenador de Arqueros - Categorías U16 · U17 · U19 · U23"
         },
         "5": {
-          "period": "2016–2021",
+          "period": "2016-2021",
           "org": "Selecciones de Paysandú",
           "role": "Entrenador de Arqueros - Primera División · U17 · U15 · U14"
         }
@@ -159,33 +159,49 @@
         "institutionalTitle": "Formación y rol institucional",
         "institutional": {
           "1": "Disertante · Universidad de la República (UDELAR)",
-          "2": "Curso de Actualización de Entrenadores de Arqueros · FIFA – AUF",
+          "2": "Curso de Actualización de Entrenadores de Arqueros · FIFA - AUF",
           "3": "Actualización de Entrenadores de Arqueros · CONMEBOL"
         }
       }
     },
     "methodology": {
+      "kicker": "Metodología",
       "title": "Metodología",
-      "intro": "Análisis de jugadas como eje transversal. Desarrollo objetivos específicos a través de tareas analíticas, mixtas y contextualizadas durante todo el proceso.",
-      "sections": {
-        "diagnostic": {
-          "title": "Evaluación Diagnóstica",
-          "description": "Fundamental para elaborar el plan de trabajo, atendiendo las necesidades específicas del desarrollo evolutivo del arquero."
+      "intro": "Mi enfoque parte del análisis del juego como eje transversal, y se desarrolla a partir de la evaluación diagnóstica y la toma de decisiones, integrando aspectos técnicos, tácticos y cognitivos en contextos reales de competencia.",
+      "pillars": {
+        "title": "Pilares",
+        "1": {
+          "title": "Análisis del juego",
+          "text": "El análisis de jugadas a lo largo del partido define objetivos y orienta tareas analíticas, mixtas y contextualizadas durante el proceso."
         },
-        "video": {
+        "2": {
+          "title": "Evaluación diagnóstica",
+          "text": "La evaluación inicial es clave para elaborar el plan de trabajo y atender necesidades específicas predominantes en el desarrollo del arquero."
+        },
+        "3": {
           "title": "Videoanálisis",
-          "description": "Herramienta esencial para observar fortalezas y debilidades en entrenamientos y partidos oficiales. La observación con ejemplos facilita el entendimiento del juego."
+          "text": "Herramienta fundamental para observar fortalezas y debilidades, sostener el proceso y mejorar el entendimiento del juego."
         },
-        "cognitive": {
-          "title": "Trabajo Cognitivo",
-          "perception": "Percepción: Desarrollo de la capacidad de lectura e interpretación del juego",
-          "decision": "Decisión: Mejora constante en la toma de decisiones bajo presión",
-          "execution": "Ejecución: Especialización y eficacia en las acciones técnicas-tácticas"
+        "4": {
+          "title": "Trabajo cognitivo",
+          "text": "Desarrollo orientado a la mejora constante de Percepción, Decisión y Ejecución, integrándolo al entrenamiento diario."
         },
-        "integration": {
-          "title": "Integración con el Cuerpo Técnico",
-          "description": "Coordinación constante con el Entrenador jefe y el departamento físico para un correcto funcionamiento. Aplicación de la metodología en etapas formativas cuando corresponda."
+        "5": {
+          "title": "Integración técnico-táctica y coordinación",
+          "text": "La técnica se utiliza como medio para potenciar comportamientos tácticos, coordinando el trabajo con el entrenador jefe y el área física."
         }
+      },
+      "process": {
+        "title": "Proceso",
+        "1": "Diagnóstico",
+        "2": "Planificación",
+        "3": "Implementación y ajuste continuo"
+      },
+      "cta": {
+        "title": "Contacto profesional",
+        "text": "Si querés profundizar en el enfoque de trabajo o evaluar su aplicación en tu contexto, podés descargar el CV o escribir para coordinar una conversación.",
+        "primary": "Descargar CV",
+        "secondary": "Contactar"
       }
     },
     "cv": {

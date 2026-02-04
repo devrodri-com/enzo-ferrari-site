@@ -98,7 +98,7 @@
       "experience": {
         "title": "Professional Experience",
         "1": {
-          "period": "2024–Present",
+          "period": "2024-Present",
           "org": "Uruguay Senior National Team (AUF)",
           "role": "Goalkeeper Coach - Technical staff led by Marcelo Bielsa",
           "micro": "Highest international competitive level."
@@ -119,7 +119,7 @@
           "role": "Goalkeeper Coach - U16 · U17 · U19 · U23"
         },
         "5": {
-          "period": "2016–2021",
+          "period": "2016-2021",
           "org": "Paysandú Selections",
           "role": "Goalkeeper Coach - First Division · U17 · U15 · U14"
         }
@@ -158,33 +158,49 @@
         "institutionalTitle": "Institutional education & roles",
         "institutional": {
           "1": "Guest lecturer · University of the Republic (UDELAR)",
-          "2": "FIFA–AUF Goalkeeper Coaches Update Course",
+          "2": "FIFA-AUF Goalkeeper Coaches Update Course",
           "3": "CONMEBOL Goalkeeper Coaches Update Program"
         }
       }
     },
     "methodology": {
+      "kicker": "Methodology",
       "title": "Methodology",
-      "intro": "This section will detail the working methodology and fundamental principles applied in goalkeeper training.",
-      "sections": {
-        "diagnostic": {
-          "title": "Diagnostic Assessment",
-          "description": "Initial analysis of the goalkeeper's capabilities and areas for improvement. To be added."
+      "intro": "My approach is built on game analysis as a cross-cutting axis, developed through diagnostic evaluation and decision-making, integrating technical, tactical and cognitive aspects in real competitive environments.",
+      "pillars": {
+        "title": "Pillars",
+        "1": {
+          "title": "Game analysis",
+          "text": "Match-play analysis defines objectives and guides analytical, mixed and contextualized tasks throughout the process."
         },
-        "video": {
-          "title": "Video Analysis",
-          "description": "Use of video analysis to identify patterns and improvement opportunities. To be added."
+        "2": {
+          "title": "Diagnostic evaluation",
+          "text": "Initial assessment is essential to build the work plan and address the goalkeeper's predominant needs at each stage."
         },
-        "cognitive": {
-          "title": "Cognitive Training",
-          "perception": "Perception: To be added",
-          "decision": "Decision: To be added",
-          "execution": "Execution: To be added"
+        "3": {
+          "title": "Video analysis",
+          "text": "A key tool to identify strengths and weaknesses, support the process, and improve game understanding."
         },
-        "integration": {
-          "title": "Integration with Coaching Staff",
-          "description": "Coordination and joint work with the technical team. To be added."
+        "4": {
+          "title": "Cognitive work",
+          "text": "Training aimed at constant improvement in Perception, Decision-making and Execution as part of the daily methodology."
+        },
+        "5": {
+          "title": "Technical-tactical integration & coordination",
+          "text": "Technique is used as a training tool to enhance tactical behaviors, in coordination with the head coach and physical department."
         }
+      },
+      "process": {
+        "title": "Process",
+        "1": "Diagnosis",
+        "2": "Planning",
+        "3": "Implementation & continuous adjustment"
+      },
+      "cta": {
+        "title": "Professional contact",
+        "text": "If you want to go deeper into the working approach or assess its application in your context, you can download the CV or get in touch to schedule a conversation.",
+        "primary": "Download CV",
+        "secondary": "Contact"
       }
     },
     "cv": {

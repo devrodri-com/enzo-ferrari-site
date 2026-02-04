@@ -204,9 +204,27 @@
       }
     },
     "cv": {
+      "kicker": "CV",
       "title": "Curriculum Vitae",
-      "intro": "Download the updated CV in your preferred language.",
-      "note": "The CV is updated periodically. The available PDF files are the most recent version."
+      "intro": "Professional CV version for formal processes and institutional contexts.",
+      "blocks": {
+        "es": {
+          "title": "Spanish",
+          "meta": "PDF · Official CV",
+          "cta": "Download CV (ES)"
+        },
+        "en": {
+          "title": "English",
+          "meta": "PDF · Official CV",
+          "cta": "Download CV (EN)"
+        }
+      },
+      "cta": {
+        "title": "Professional contact",
+        "text": "If you need the CV for a formal process or want to schedule a conversation, feel free to get in touch.",
+        "primary": "Contact",
+        "secondary": "Back to home"
+      }
     }
   },
   "cv": {

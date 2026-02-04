@@ -205,9 +205,27 @@
       }
     },
     "cv": {
-      "title": "Curriculum Vitae",
-      "intro": "Descarga el CV actualizado en el idioma de tu preferencia.",
-      "note": "El CV se actualiza periódicamente. Los archivos PDF disponibles son la versión más reciente."
+      "kicker": "CV",
+      "title": "Currículum Vitae",
+      "intro": "Versión profesional del CV para procesos formales y contextos institucionales.",
+      "blocks": {
+        "es": {
+          "title": "Español",
+          "meta": "PDF · CV oficial",
+          "cta": "Descargar CV (ES)"
+        },
+        "en": {
+          "title": "Inglés",
+          "meta": "PDF · Official CV",
+          "cta": "Descargar CV (EN)"
+        }
+      },
+      "cta": {
+        "title": "Contacto profesional",
+        "text": "Si necesitás el CV para un proceso formal o querés coordinar una conversación, podés contactarme directamente.",
+        "primary": "Contactar",
+        "secondary": "Volver al inicio"
+      }
     }
   },
   "cv": {

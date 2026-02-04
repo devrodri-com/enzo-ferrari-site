@@ -60,7 +60,7 @@ export default async function MethodologyPage({
               {/* Pilares secundarios (2x2 en desktop) */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
                 <div className="max-w-prose">
-                  <h3 className="text-base sm:text-lg font-medium text-[#1d1d1f]">
+                  <h3 className="text-lg sm:text-xl font-medium text-[#1d1d1f]">
                     {t('pillars.2.title')}
                   </h3>
                   <p className="mt-3 text-base text-[#1d1d1f]/75 leading-relaxed">
@@ -69,7 +69,7 @@ export default async function MethodologyPage({
                 </div>
 
                 <div className="max-w-prose">
-                  <h3 className="text-base sm:text-lg font-medium text-[#1d1d1f]">
+                  <h3 className="text-lg sm:text-xl font-medium text-[#1d1d1f]">
                     {t('pillars.3.title')}
                   </h3>
                   <p className="mt-3 text-base text-[#1d1d1f]/75 leading-relaxed">
@@ -78,7 +78,7 @@ export default async function MethodologyPage({
                 </div>
 
                 <div className="max-w-prose">
-                  <h3 className="text-base sm:text-lg font-medium text-[#1d1d1f]">
+                  <h3 className="text-lg sm:text-xl font-medium text-[#1d1d1f]">
                     {t('pillars.4.title')}
                   </h3>
                   <p className="mt-3 text-base text-[#1d1d1f]/75 leading-relaxed">
@@ -87,7 +87,7 @@ export default async function MethodologyPage({
                 </div>
 
                 <div className="max-w-prose">
-                  <h3 className="text-base sm:text-lg font-medium text-[#1d1d1f]">
+                  <h3 className="text-lg sm:text-xl font-medium text-[#1d1d1f]">
                     {t('pillars.5.title')}
                   </h3>
                   <p className="mt-3 text-base text-[#1d1d1f]/75 leading-relaxed">

@@ -62,7 +62,7 @@ export default async function CareerPage({
 
       {/* Main content */}
       <main className="bg-[#fafafa]">
-        <div className="mx-auto max-w-6xl px-6 sm:px-10 py-14 sm:py-20 space-y-20">
+        <div className="mx-auto max-w-6xl px-6 sm:px-10 py-14 sm:py-20 space-y-16">
           {/* Experiencia profesional */}
           <section className="space-y-8">
             <div className="flex items-center gap-3">
@@ -168,7 +168,7 @@ export default async function CareerPage({
             </div>
 
             {/* Separador sutil */}
-            <div className="border-t border-[#2C3A44]/15 mt-4 mb-6" />
+            <div className="border-t border-[#2C3A44]/15 mt-4" />
 
             {/* Lista de logros */}
             <ul className="space-y-6">
@@ -214,37 +214,8 @@ export default async function CareerPage({
           </section>
         </div>
 
-        {/* Bridge + CTA (full-width band) */}
-        <div className="w-full border-y border-white/10 bg-[#141615] py-12 sm:py-14">
-          <div className="mx-auto max-w-6xl px-6 sm:px-10">
-            <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-[#2C3A44]" />
-              <span className="text-xs uppercase tracking-[0.22em] text-white/60">
-                {t('bridge.title')}
-              </span>
-            </div>
-            <p className="mt-4 max-w-3xl text-base sm:text-lg text-white/80 leading-relaxed">
-              {t('bridge.text')}
-            </p>
-            <div className="mt-6 flex flex-wrap gap-4">
-              <ButtonLink
-                href={`/${locale}/cv`}
-                className="bg-white text-black hover:bg-white/95 border border-white/20 no-underline hover:no-underline px-6 py-3"
-              >
-                {t('bridge.ctaPrimary')}
-              </ButtonLink>
-              <ButtonLink
-                href={`/${locale}/contact`}
-                className="border border-white/70 text-white hover:bg-white/10 hover:border-white/85 no-underline hover:no-underline px-6 py-3"
-              >
-                {t('bridge.ctaSecondary')}
-              </ButtonLink>
-            </div>
-          </div>
-        </div>
-
         {/* Formación relevante */}
-        <div className="mx-auto max-w-6xl px-6 sm:px-10 py-14 sm:py-20">
+        <div className="mx-auto max-w-6xl px-6 sm:px-10 pt-0 pb-4 sm:pb-8">
           <section className="space-y-8">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-[#2C3A44]" />
@@ -279,7 +250,7 @@ export default async function CareerPage({
               </div>
 
               {/* Right column: Institutional */}
-              <div className="space-y-4 mt-10 md:mt-0">
+              <div className="space-y-4">
                 <p className="text-sm uppercase tracking-[0.18em] text-[#1d1d1f]/60">
                   {t('education.institutionalTitle')}
                 </p>
@@ -291,6 +262,35 @@ export default async function CareerPage({
               </div>
             </div>
           </section>
+        </div>
+
+        {/* Bridge + CTA (full-width band) */}
+        <div className="mt-14 w-full border-y border-white/10 bg-[#141615] py-12 sm:py-14 pb-10 sm:pb-12">
+          <div className="mx-auto max-w-6xl px-6 sm:px-10">
+            <div className="flex items-center gap-3">
+              <span className="h-px w-10 bg-[#2C3A44]" />
+              <span className="text-xs uppercase tracking-[0.22em] text-white/60">
+                {t('bridge.title')}
+              </span>
+            </div>
+            <p className="mt-4 max-w-3xl text-base sm:text-lg text-white/80 leading-relaxed">
+              {t('bridge.text')}
+            </p>
+            <div className="mt-6 flex flex-wrap gap-4">
+              <ButtonLink
+                href={`/${locale}/cv`}
+                className="bg-white text-black hover:bg-white/95 border border-white/20 no-underline hover:no-underline px-6 py-3"
+              >
+                {t('bridge.ctaPrimary')}
+              </ButtonLink>
+              <ButtonLink
+                href={`/${locale}/contact`}
+                className="border border-white/70 text-white hover:bg-white/10 hover:border-white/85 no-underline hover:no-underline px-6 py-3"
+              >
+                {t('bridge.ctaSecondary')}
+              </ButtonLink>
+            </div>
+          </div>
         </div>
       </main>
 

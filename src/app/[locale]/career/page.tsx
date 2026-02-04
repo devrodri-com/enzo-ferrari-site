@@ -74,11 +74,8 @@ export default async function CareerPage({
             <ul className="relative before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-[#2C3A44]/40 before:content-['']">
               {([1, 2, 3, 4, 5] as const).map((i) => (
                 <li key={i} className={i === 1 ? 'pl-6 py-9' : 'pl-6 py-6'}>
-                  <div className="grid grid-cols-1 md:grid-cols-[112px_1fr] gap-3 md:gap-4">
-                    <div className="md:hidden text-xs uppercase tracking-[0.18em] text-[#1d1d1f]/55">
-                      {t(`experience.${i}.period`)}
-                    </div>
-                    <div className="hidden md:block text-sm text-[#1d1d1f]/55">
+                  <div className="grid grid-cols-1 gap-3">
+                    <div className="text-xs uppercase tracking-[0.18em] text-[#1d1d1f]/55">
                       {t(`experience.${i}.period`)}
                     </div>
                     <div>
@@ -115,41 +112,72 @@ export default async function CareerPage({
             </ul>
           </section>
 
+          {/* Foto editorial */}
+          <div className="my-16 sm:my-20">
+            <Image
+              src="/images/career/career-editorial.jpg"
+              alt="Trabajo en contexto profesional"
+              width={2400}
+              height={1350}
+              className="w-full h-auto rounded-lg object-cover"
+            />
+          </div>
+
           {/* Logros destacados */}
-          <section className="space-y-8">
-            <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-[#2C3A44]" />
+          <section className="space-y-10">
+            {/* Section header */}
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <span className="h-px w-10 bg-[#2C3A44]" />
+              </div>
+              <h2 className="text-xl sm:text-2xl font-medium text-[#1d1d1f]">
+                {t('achievements.title')}
+              </h2>
             </div>
-            <h2 className="text-xl sm:text-2xl font-medium text-[#1d1d1f]">
-              {t('achievements.title')}
-            </h2>
 
             {/* Resumen de logros */}
-            <div className="mt-4 mb-8">
+            <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <span className="h-px w-10 bg-[#2C3A44]" />
                 <span className="text-xs uppercase tracking-[0.22em] text-[#1d1d1f]/55">
                   {t('achievements.summary.title')}
                 </span>
               </div>
-              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/90">
+
+              {/* Mobile: stack vertical */}
+              <div className="grid grid-cols-1 gap-4 md:hidden">
+                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/85">
                   {t('achievements.summary.1')}
                 </p>
-                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/90">
+                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/85">
                   {t('achievements.summary.2')}
                 </p>
-                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/90">
+                <p className="text-sm sm:text-base font-medium text-[#1d1d1f]/85">
                   {t('achievements.summary.3')}
                 </p>
               </div>
+
+              {/* Desktop: una línea con separadores verticales */}
+              <div className="hidden md:flex flex-wrap items-center gap-y-2 text-sm sm:text-base font-medium text-[#1d1d1f]/85">
+                <span>{t('achievements.summary.1')}</span>
+                <span className="mx-6 h-4 w-px bg-[#1d1d1f]/15" aria-hidden="true" />
+                <span>{t('achievements.summary.2')}</span>
+                <span className="mx-6 h-4 w-px bg-[#1d1d1f]/15" aria-hidden="true" />
+                <span>{t('achievements.summary.3')}</span>
+              </div>
             </div>
 
-            <ul className="space-y-5">
+            {/* Separador sutil */}
+            <div className="border-t border-[#2C3A44]/15 mt-4 mb-6" />
+
+            {/* Lista de logros */}
+            <ul className="space-y-6">
               {([1, 2, 3, 4, 5] as const).map((i) => (
                 <li
                   key={i}
-                  className={`grid grid-cols-[auto_4rem_1fr] sm:grid-cols-[auto_4rem_1fr] gap-3 items-start ${i === 1 ? 'py-6' : ''} text-[#1d1d1f]/80`}
+                  className={`grid grid-cols-[auto_4rem_1fr] sm:grid-cols-[auto_4rem_1fr] gap-3 items-start ${
+                    i === 1 ? 'py-6' : ''
+                  } text-[#1d1d1f]/80`}
                 >
                   <span className="flex items-center justify-center w-5 pt-0.5">
                     <TrophyIcon />
@@ -165,6 +193,15 @@ export default async function CareerPage({
                       <p className="mt-2 text-xs uppercase tracking-[0.18em] text-[#1d1d1f]/55">
                         {t('achievements.1.micro')}
                       </p>
+                      <div className="mt-6">
+                        <Image
+                          src="/images/career/career-achievement-copa.jpg"
+                          alt="Copa América Selección Uruguaya"
+                          width={2000}
+                          height={1125}
+                          className="w-full max-w-xl rounded-md object-cover"
+                        />
+                      </div>
                     </div>
                   ) : (
                     <span className="text-sm sm:text-base">

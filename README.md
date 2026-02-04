@@ -1,5 +1,5 @@
 
-# Enzo Ferrari — Professional Website
+# Enzo Ferrari - Professional Website
 
 Bilingual (ES/EN) professional website for **Enzo Ferrari** (Goalkeeper Coach).
 
@@ -69,10 +69,10 @@ Recommended: **Vercel**.
 
 ## Project Structure (key)
 
-- `src/app/[locale]/...` — pages by locale
-- `src/proxy.ts` — locale redirect logic (Next 16+)
-- `src/i18n/*` — next-intl routing/request config
-- `messages/*.json` — translations
+- `src/app/[locale]/...` - pages by locale
+- `src/proxy.ts` - locale redirect logic (Next 16+)
+- `src/i18n/*` - next-intl routing/request config
+- `messages/*.json` - translations
 
 ---
 

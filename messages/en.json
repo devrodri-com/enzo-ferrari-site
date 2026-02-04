@@ -74,14 +74,75 @@
       "focusBlock": "My approach focuses on the comprehensive development of the goalkeeper, combining game analysis, diagnostic assessment, and decision-making processes to enhance individual performance within the team's collective structure."
     },
     "career": {
+      "kicker": "Career",
       "title": "Career",
-      "intro": "This section will showcase the professional trajectory and most relevant milestones of the career as a goalkeeper coach.",
-      "timeline": {
-        "title": "Timeline",
-        "item1": "To be added",
-        "item2": "To be added",
-        "item3": "To be added",
-        "item4": "To be added"
+      "intro": "My career has been built in real competitive environments, integrating into professional technical staffs and developing goalkeeper work through game analysis, diagnostic evaluation, and decision-making.",
+      "experience": {
+        "title": "Professional Experience",
+        "1": {
+          "period": "2024–Present",
+          "org": "Uruguay Senior National Team (AUF)",
+          "role": "Goalkeeper Coach - Technical staff led by Marcelo Bielsa",
+          "micro": "Highest international competitive level."
+        },
+        "2": {
+          "period": "2024",
+          "org": "Uruguay U17 National Team (AUF)",
+          "role": "Goalkeeper Coach"
+        },
+        "3": {
+          "period": "2023",
+          "org": "Uruguay U15 National Team (AUF)",
+          "role": "Goalkeeper Coach"
+        },
+        "4": {
+          "period": "2022",
+          "org": "Liverpool F.C.",
+          "role": "Goalkeeper Coach - U16 · U17 · U19 · U23"
+        },
+        "5": {
+          "period": "2016–2021",
+          "org": "Paysandú Selections",
+          "role": "Goalkeeper Coach - First Division · U17 · U15 · U14"
+        }
+      },
+      "bridge": {
+        "title": "Professional contact",
+        "text": "This path allows me to work today in environments where the goalkeeper's decision-making impacts collective performance, integrating into the technical staff and the team's working process.",
+        "ctaPrimary": "Download CV",
+        "ctaSecondary": "Contact"
+      },
+      "achievements": {
+        "title": "Key Achievements",
+        "summary": {
+          "title": "Summary",
+          "1": "Copa América 2024 · Bronze",
+          "2": "National titles · 3",
+          "3": "Litoral Norte U17 · Champion 2020"
+        },
+        "1": { "year": "2024", "text": "Bronze Medal - Copa América USA (Senior National Team)", "micro": "Senior National Team · Copa América USA" },
+        "2": { "year": "2020", "text": "Champion - Torneo Litoral Norte (U17) - Paysandú" },
+        "3": { "year": "2019", "text": "Champion - National Tournament (Senior) - Paysandú" },
+        "4": { "year": "2019", "text": "Champion - National Tournament (U15) - Paysandú" },
+        "5": { "year": "2018", "text": "Champion - National Tournament (U17) - Paysandú" }
+      },
+      "education": {
+        "title": "Education",
+        "licensesTitle": "Professional licenses",
+        "licenses": {
+          "1": "CONMEBOL Professional Goalkeeper Coach License",
+          "2": "CONMEBOL PRO Football Coach License"
+        },
+        "academicTitle": "Academic background",
+        "academic": {
+          "1": "Bachelor's Degree in Physical Education (58 credits completed)"
+        },
+        "institutionalTitle": "Institutional education & roles",
+        "institutional": {
+          "1": "Guest lecturer · University of the Republic (UDELAR)",
+          "2": "FIFA–AUF Goalkeeper Coaches Update Course",
+          "3": "CONMEBOL Goalkeeper Coaches Update Program"
+        }
       }
     },
     "methodology": {

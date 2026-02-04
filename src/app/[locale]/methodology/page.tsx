@@ -10,13 +10,20 @@ export default async function MethodologyPage({
   const t = await getTranslations('pages.methodology');
 
   return (
-    <Page className="space-y-8 py-10">
-      <h1 className="text-4xl font-bold tracking-tight">
+    <Page className="space-y-12 py-10">
+      {/* Entrada editorial: micro-línea + kicker + título */}
+      <div className="flex items-center gap-3">
+        <span className="h-px w-10 bg-[#2C3A44]" />
+        <span className="text-xs uppercase tracking-[0.22em] text-[#1d1d1f]/55">
+          {t('title')}
+        </span>
+      </div>
+      <h1 className="text-4xl font-bold tracking-tight text-[#1d1d1f]">
         {t('title')}
       </h1>
-      
+
       <Section>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p className="text-base sm:text-lg text-[#1d1d1f]/80 leading-relaxed">
           {t('intro')}
         </p>
       </Section>
@@ -24,7 +31,7 @@ export default async function MethodologyPage({
       <Section title={t('sections.diagnostic.title')}>
         <div className="flex items-start gap-3">
           <div className="w-1 h-1 rounded-full bg-[#2C3A44] mt-2 flex-shrink-0" />
-          <p className="text-gray-700">
+          <p className="text-[#1d1d1f]/80 leading-relaxed">
             {t('sections.diagnostic.description')}
           </p>
         </div>
@@ -33,14 +40,14 @@ export default async function MethodologyPage({
       <Section title={t('sections.video.title')}>
         <div className="flex items-start gap-3">
           <div className="w-1 h-1 rounded-full bg-[#2C3A44] mt-2 flex-shrink-0" />
-          <p className="text-gray-700">
+          <p className="text-[#1d1d1f]/80 leading-relaxed">
             {t('sections.video.description')}
           </p>
         </div>
       </Section>
 
       <Section title={t('sections.cognitive.title')}>
-        <ul className="list-none space-y-2 text-gray-700">
+        <ul className="list-none space-y-2 text-[#1d1d1f]/80 leading-relaxed">
           <li className="flex items-start gap-3">
             <div className="w-1 h-1 rounded-full bg-[#2C3A44] mt-2 flex-shrink-0" />
             <span>{t('sections.cognitive.perception')}</span>
@@ -59,7 +66,7 @@ export default async function MethodologyPage({
       <Section title={t('sections.integration.title')}>
         <div className="flex items-start gap-3">
           <div className="w-1 h-1 rounded-full bg-[#2C3A44] mt-2 flex-shrink-0" />
-          <p className="text-gray-700">
+          <p className="text-[#1d1d1f]/80 leading-relaxed">
             {t('sections.integration.description')}
           </p>
         </div>

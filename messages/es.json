@@ -11,20 +11,6 @@
     "title": "Enzo Ferrari",
     "subtitle": "Entrenador de Arqueros",
     "description": "Trabajo en selecciones nacionales y clubes de alto rendimiento. Aplico metodologías basadas en análisis de juego, evaluación diagnóstica y trabajo cognitivo. Proceso de trabajo en Selección Mayor de cara a 2026.",
-    "highlights": {
-      "highlight1": {
-        "title": "Selección Uruguaya Mayor · AUF",
-        "description": "Trabajo actual en la selección mayor bajo la dirección de Marcelo Bielsa (2024–Actualidad)."
-      },
-      "highlight2": {
-        "title": "Formativas y Alto Rendimiento",
-        "description": "Experiencia en selecciones formativas y clubes de primera división."
-      },
-      "highlight3": {
-        "title": "Metodología Integral",
-        "description": "Enfoque basado en análisis de juego, videoanálisis y trabajo cognitivo."
-      }
-    },
     "context": "Selección Uruguaya Mayor · AUF · Alto rendimiento",
     "ctaContact": "Contacto",
     "ctaCv": "Descargar CV",
@@ -89,15 +75,75 @@
       "focusBlock": "Mi enfoque se centra en el desarrollo integral del arquero, combinando análisis del juego, evaluación diagnóstica y toma de decisiones, con el objetivo de potenciar el rendimiento individual dentro del funcionamiento colectivo del equipo."
     },
     "career": {
-      "title": "Carrera",
-      "intro": "Trayectoria profesional desarrollada en selecciones nacionales y clubes de Uruguay, trabajando desde categorías formativas hasta selección mayor.",
-      "timeline": {
-        "title": "Trayectoria",
-        "item1": "2024–Actualidad - Selección Uruguaya Mayor · AUF - Entrenador de Arqueros",
-        "item2": "2024 - Selección Uruguaya Sub 17",
-        "item3": "2023 - Selección Uruguaya Sub 15",
-        "item4": "2022 - Liverpool F.C Uruguay (U16-U17-U19-U23)",
-        "item5": "2016-2021 - Selecciones de Paysandú (1ra Div, U17, U15, U14)"
+      "kicker": "Carrera",
+      "title": "Trayectoria",
+      "intro": "Mi recorrido se construye en contextos reales de competencia, integrándome a cuerpos técnicos profesionales y desarrollando el trabajo del arquero desde el análisis del juego, la evaluación diagnóstica y la toma de decisiones.",
+      "experience": {
+        "title": "Experiencia profesional",
+        "1": {
+          "period": "2024–Actualidad",
+          "org": "Selección Uruguaya Mayor · AUF",
+          "role": "Entrenador de Arqueros - Cuerpo técnico dirigido por Marcelo Bielsa",
+          "micro": "Máximo nivel competitivo internacional."
+        },
+        "2": {
+          "period": "2024",
+          "org": "Selección Uruguaya Sub 17 · AUF",
+          "role": "Entrenador de Arqueros"
+        },
+        "3": {
+          "period": "2023",
+          "org": "Selección Uruguaya Sub 15 · AUF",
+          "role": "Entrenador de Arqueros"
+        },
+        "4": {
+          "period": "2022",
+          "org": "Liverpool F.C.",
+          "role": "Entrenador de Arqueros - Categorías U16 · U17 · U19 · U23"
+        },
+        "5": {
+          "period": "2016–2021",
+          "org": "Selecciones de Paysandú",
+          "role": "Entrenador de Arqueros - Primera División · U17 · U15 · U14"
+        }
+      },
+      "bridge": {
+        "title": "Contacto profesional",
+        "text": "Este recorrido me permite intervenir hoy en contextos donde la toma de decisiones del arquero impacta en el rendimiento colectivo, integrándome al cuerpo técnico y al proceso de trabajo del equipo.",
+        "ctaPrimary": "Descargar CV",
+        "ctaSecondary": "Contactar"
+      },
+      "achievements": {
+        "title": "Logros destacados",
+        "summary": {
+          "title": "Resumen",
+          "1": "Copa América 2024 · Bronce",
+          "2": "Títulos nacionales · 3",
+          "3": "Litoral Norte U17 · Campeón 2020"
+        },
+        "1": { "year": "2024", "text": "Medalla de Bronce - Copa América USA (Selección Uruguaya Mayor)", "micro": "Selección Uruguaya Mayor · Copa América USA" },
+        "2": { "year": "2020", "text": "Campeón - Torneo Litoral Norte (U17) - Selección de Paysandú" },
+        "3": { "year": "2019", "text": "Campeón - Torneo Nacional (Mayor) - Selección de Paysandú" },
+        "4": { "year": "2019", "text": "Campeón - Torneo Nacional (U15) - Selección de Paysandú" },
+        "5": { "year": "2018", "text": "Campeón - Torneo Nacional (U17) - Selección de Paysandú" }
+      },
+      "education": {
+        "title": "Formación relevante",
+        "licensesTitle": "Licencias profesionales",
+        "licenses": {
+          "1": "Entrenador de Arqueros · Licencia Profesional CONMEBOL",
+          "2": "Entrenador de Fútbol · Licencia PRO CONMEBOL"
+        },
+        "academicTitle": "Formación académica",
+        "academic": {
+          "1": "Licenciatura en Educación Física (58 créditos finales)"
+        },
+        "institutionalTitle": "Formación y rol institucional",
+        "institutional": {
+          "1": "Disertante · Universidad de la República (UDELAR)",
+          "2": "Curso de Actualización de Entrenadores de Arqueros · FIFA – AUF",
+          "3": "Actualización de Entrenadores de Arqueros · CONMEBOL"
+        }
       }
     },
     "methodology": {
